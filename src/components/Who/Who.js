@@ -1,5 +1,6 @@
 import React from "react"; 
-import Styled from "styled-components"; 
+import Styled from "styled-components";
+import Luna from "./Luna";  
 import "../../App.css"; 
 const Who = () => {
     
@@ -7,8 +8,10 @@ const Who = () => {
     font-family: "Arial Black"; 
     font-size: 48px; 
     color: #000AFF; 
+    
     `; 
     
+
     const Paragraph = Styled.p`
     font-family: "Roboto"; 
     font-size: 36px; 
@@ -26,10 +29,10 @@ const Who = () => {
     `; 
 
     const FlexText = Styled.p`
-    display: flex; 
-    flex-direction: column; 
-    `; 
+     line-height: 29,74px; 
      
+    `; 
+    
 
     return (
 <div>
@@ -40,29 +43,35 @@ const Who = () => {
      <p>General text about us as service designers... Our values, mission</p>
      </Paragraph>
     <div className="image-container">
-  <div className="image">
-      <img className="Luna-Berlin size" src="../images/Luna.jpg" /> 
-     <p>Luna</p>
+    
+  <div className="image lunis">
+      <img className="Luna-Berlin size" src="../images/Luna.jpg" alt="Luna Berlin" /> 
+     
+     <p className="height">LUNA BERLIN <br /> SCRUM MASTER & WORKSHOP LEAD</p>
+     
  </div>
  <div className="image">
-      <img className="Maria-Højgaard size" src="../images/Maria.JPG" />
-      <p>Maria Højgaard</p>
+      <img className="Maria-Højgaard size" src="../images/Maria.jpg" alt="Maria Højgaard"/>
+     
+    <p className="height">MARIA HØJGAARD <br />UX CONSULTANT & CLIENT MANAGER </p>
+    
 </div>
-
 <div className="image">
-      <img className="Caroline-Haakonson size" src="../images/Caroline.jpg" />
-      <p className="pos">Caroline</p>
+      <img className="Caroline-Haakonson size" src="../images/Caroline.jpg" alt="Caroline Haakonson"/>
+      <p className="height">CAROLINE HAAKONSEN <br />UX CONSULTANT & DESIGN LEAD
+</p>
     </div>
-   
    </div>
 
-       
+
+   
     </div>
+    
     );
 }
 
 export default Who; 
-
+ 
 
 
 

@@ -8,7 +8,7 @@ const Who = () => {
     font-family: "Arial Black"; 
     font-size: 48px; 
     color: #000AFF; 
-    
+
     `; 
     
 
@@ -21,11 +21,8 @@ const Who = () => {
 
     const ContainerFlex = Styled.div`
      width: 100%; 
-     
      display:flex; 
-     justify-content: space-around; 
-
-    
+     justify-content: space-around;     
     `; 
 
     const FlexText = Styled.p`

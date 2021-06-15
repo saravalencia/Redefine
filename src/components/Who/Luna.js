@@ -11,9 +11,6 @@ const H1 = Styled.h1`
 font-family: "Arial Black"; 
 font-size: 48px; 
 color: #000AFF;
-margin: auto;
-width: 100%;
-height: 100vh;
 text-align:center;
 
 
@@ -24,10 +21,10 @@ border-radius: 50%;
 `; 
 
     return (
-       <div className="whole-container">
-            <H1>
-         <h1>WHO IS LUNA?</h1>
-         </H1>
+       <div className="luna-whole-container">
+        
+         <h1 className="luna-title">WHO IS LUNA?</h1>
+         
             <div className="luna-container">
                    <img className="Luna" src="../images/Luna.jpg" />
                    <p className="luna-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio proin feugiat id semper turpis vestibulum. Mattis magna leo, dui nam convallis eget. Viverra amet suspendisse molestie cras pellentesque turpis. Sapien aenean massa lectus dignissim nunc accumsan, pharetra odio. Mollis interdum penatibus ut placerat turpis. Orci donec a quam enim, ullamcorper ut ullamcorper in. Elementum interdum dolor vestibulum, et, augue consectetur urna enim diam. Sed elementum a mauris iaculis posuere lacus, et diam eget. Et sit et at tempus, et, integer ac sit. Justo, eget risus aliquet aliquam nunc. At et ac, a, auctor tortor nulla turpis orci quis. Elementum mauris volutpat ullamcorper sed sit lacus pellentesque egestas faucibus. Bibendum felis egestas varius senectus mi amet vitae. Orci adipiscing eu morbi malesuada. Lectus blandit mattis eu sapien in pellentesque pretium bibendum elementum. Ut faucibus sed phasellus metus elementum urna, congue. Purus convallis vel purus eget luctus. Malesuada tortor, feugiat consequat faucibus nec vivamus orci purus lacus. Cras rutrum odio suspendisse dolor nec amet.</p>

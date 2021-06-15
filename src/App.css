@@ -1,18 +1,20 @@
 .App {
   text-align: center;
+  background-color: #FFC9D6; 
 }
 
 .image{
 width: 20%; 
-height: 0vh;
+min-width: 250px; 
 text-align: center;
 margin-bottom: 0px; 
 
-  
+
 }
 
 .image-container{
   display:flex;
+  flex-wrap: wrap; 
   justify-content: space-evenly; 
   margin-top: 10%; 
 } 
@@ -29,7 +31,7 @@ margin-bottom: 0px;
 .Maria-Højgaard{
   margin-bottom: 0px;
   padding: 0px;
-  position: relative; 
+  
  
  
 }
@@ -46,16 +48,31 @@ margin-bottom: 0px;
   overflow: hidden; 
   border-radius: 50%;
   width: 20%; 
+  min-width: 250px;
 
 }
 
 .luna-container{
-  position: absolute;
-  top: 250px; 
+ 
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   align-items: center;
   margin-left:0.5%;  
+}
+
+
+.luna-title{
+ font-family: "Arial Black"; 
+ font-size: 48px; 
+ color: #000AFF;
+
+}
+
+@media screen and (min-width:734px){
+  .luna-title{
+    padding-left: 30%;
+  }
 }
 
 .luna-text{
@@ -64,10 +81,9 @@ margin-bottom: 0px;
   
 }
 
-.whole-container{
-  position: relative; 
-  top: 580px;
+.luna-whole-container{
   line-height: 1em; 
+  margin-top: 300px;
 }
 
 .height{
@@ -77,27 +93,28 @@ margin-bottom: 0px;
 .info-container{
   display: flex; 
   justify-content: space-evenly;
+  flex-wrap: wrap; 
   width: 60%;
   margin: auto;
+  
 
 }
 
 .maria-whole-container{
-  position: relative; 
-  bottom: 800px;
+margin-top: 500px;
 }
 
 .maria-container{
   display: flex;
   justify-content: space-evenly;
-  position: relative;
-  top: 1850px;
+  flex-wrap: wrap; 
   width: 100%;
 }
 
 .Maria{
  clip-path: circle();
  width: 20%;
+ min-width: 250px;
  
 }
 
@@ -109,41 +126,49 @@ margin-bottom: 0px;
 
 .title-name{
   font-family: "Arial Black"; 
-  font-size: 90px; 
+  font-size: 48px; 
   color: #000AFF; 
-  position: relative;
-  top: 220vh;
+  
+}
+
+@media screen and (min-width: 734px){
+  .title-name{
+    padding-left: 30%; 
+  }
 }
 
 .info-container2{
   display: flex;
   justify-content: space-evenly;
-  position: relative;
-  top: 235vh;
+  flex-wrap: wrap; 
   width:60%;
   margin: auto;
 }
 
 .caroline-title{
   font-family: "Arial Black"; 
-  font-size: 90px; 
+  font-size: 48px; 
   color: #000AFF; 
-  position: relative;
-  top: 300vh;
+}
+
+@media screen and (min-width: 734px){
+  .caroline-title{
+    padding-left: 30%; 
+  }
 }
 
 .caroline-container{
   display: flex; 
   justify-content: space-evenly;
-  position: relative;
-  top: 2500px;
   width: 100%;
   margin: auto;
+  flex-wrap: wrap; 
 }
 
 .Caroline{
   clip-path: circle(); 
   width: 20%;
+  min-width: 250px;
 }
 
 .caroline-text{
@@ -155,13 +180,12 @@ margin-bottom: 0px;
 .info-container-caroline{
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap; 
   width: 60%;
   margin: auto;
-  position: relative;
-  top:2570px;
 }
 
 .caroline-whole-container{
-  position: relative; 
-  bottom: 600px; 
+margin-top: 700px;
 }
+

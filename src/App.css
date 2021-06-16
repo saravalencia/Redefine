@@ -58,7 +58,6 @@ margin-bottom: 0px;
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
-  margin-left:0.5%;  
 }
 
 
@@ -94,10 +93,17 @@ margin-bottom: 0px;
   display: flex; 
   justify-content: space-evenly;
   flex-wrap: wrap; 
-  width: 60%;
-  margin: auto;
+  position: relative; 
+  top: 100px;
+  margin: auto; 
+  width: 65%; 
+  
   
 
+}
+
+.text-bold{
+  font-weight: bold; 
 }
 
 .maria-whole-container{
@@ -141,8 +147,10 @@ margin-top: 500px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap; 
-  width:60%;
-  margin: auto;
+  position: relative; 
+  top: 100px;
+  margin: auto; 
+  width: 65%; 
 }
 
 .caroline-title{
@@ -181,11 +189,18 @@ margin-top: 500px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap; 
-  width: 60%;
-  margin: auto;
+  position: relative; 
+  top: 100px;
+  margin: auto; 
+  width: 65%; 
 }
 
 .caroline-whole-container{
 margin-top: 700px;
+padding-bottom: 250px; 
 }
+
+
+
+
 

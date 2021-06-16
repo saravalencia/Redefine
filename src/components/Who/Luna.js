@@ -23,11 +23,27 @@ border-radius: 50%;
     return (
        <div className="luna-whole-container">
         
-         <h1 className="luna-title">WHO IS LUNA?</h1>
+         <h1 className="luna-title" id="Luna" >WHO IS LUNA?</h1>
          
-            <div className="luna-container">
+            <div className="luna-container" id="Luna">
                    <img className="Luna" src="../images/Luna.jpg" />
-                   <p className="luna-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio proin feugiat id semper turpis vestibulum. Mattis magna leo, dui nam convallis eget. Viverra amet suspendisse molestie cras pellentesque turpis. Sapien aenean massa lectus dignissim nunc accumsan, pharetra odio. Mollis interdum penatibus ut placerat turpis. Orci donec a quam enim, ullamcorper ut ullamcorper in. Elementum interdum dolor vestibulum, et, augue consectetur urna enim diam. Sed elementum a mauris iaculis posuere lacus, et diam eget. Et sit et at tempus, et, integer ac sit. Justo, eget risus aliquet aliquam nunc. At et ac, a, auctor tortor nulla turpis orci quis. Elementum mauris volutpat ullamcorper sed sit lacus pellentesque egestas faucibus. Bibendum felis egestas varius senectus mi amet vitae. Orci adipiscing eu morbi malesuada. Lectus blandit mattis eu sapien in pellentesque pretium bibendum elementum. Ut faucibus sed phasellus metus elementum urna, congue. Purus convallis vel purus eget luctus. Malesuada tortor, feugiat consequat faucibus nec vivamus orci purus lacus. Cras rutrum odio suspendisse dolor nec amet.</p>
+                   <p className="luna-text">Service Økonom - Innovation & Entrepreneurship - Service Systems Design 
+                   <br />
+                   <br/>
+Luna har en Bachelor i Innovation & Entreprenørskab, specialiseret i event management. Hun har arbejdet med system design, performance design og teambuilding. Derudover har hun arbejdet i servicefaget som blandt andet fitness instruktør i 8 år. 
+<br />
+<br />
+
+Luna’s spidskompetencer er projektledelse samt at arbejde i tæt kontakt med mennesker. 
+<br />
+<br />
+<span className="text-bold"> Stilling </span >
+<br />
+<br />
+<span className="text-bold">Funfact</span>
+<br/>
+<br/>
+Luna var 500 meter fra at løbe et halvmarathon. </p>
                 </div>  
                 <div className="info-container">
                 <p><MdEmail/>lberli20@student.aau.dk</p>

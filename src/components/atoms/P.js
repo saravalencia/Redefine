@@ -13,9 +13,9 @@ const P = styled.p`
                 padding-top: 1em;
                 top: 85%;
                 font-size: 1.3em;
-                @media screen and (max-width: 1280px){
+                @media screen and (max-width: 600px), screen and (max-height: 700px){
                     font-size: 1.1em;
-                    top: 75%;
+                   
         }
 
     `
@@ -26,9 +26,9 @@ ${props => props.stylingForContactName && css`
                 position: absolute;
                 margin-left: 75px;
                 font-size: 1.4em;
-                @media screen and (max-width: 1280px){
+                @media screen and (max-width: 600px), screen and (max-height: 700px){
                     font-size: 1.1em;
-                    padding-top: 2em;
+                   
                 
                    
                     
@@ -42,9 +42,9 @@ ${props => props.stylingForContactEmail && css`
                 margin-left: 75px;
                 font-size: 1.4em;
                 top: 15%;
-                @media screen and (max-width: 1280px){
+                @media screen and (max-width: 600px), screen and (max-height: 700px){
                     font-size: 1.1em;
-                    padding-top: 2em;
+                   
                     
         }
 
@@ -56,9 +56,9 @@ ${props => props.stylingForContactMessage && css`
                 margin-left: 75px;
                 font-size: 1.4em;
                 top: 30%;
-                @media screen and (max-width: 1280px){
+                @media screen and (max-width: 600px), screen and (max-height: 700px){
                     font-size: 1.1em;
-                    padding-top: 2em;
+                    
                     
         }
 

@@ -12,6 +12,14 @@ min-height: 100%;
    
     ${props => props.stylingForContact && css`
     border-left: 2px solid #828282;
+    @media screen and (max-width: 600px), screen and (max-height: 700px){
+        border-left: none;
+    }
+    `}
+    ${props => props.stylingForContactLeft && css`
+    @media screen and (max-width: 600px), screen and (max-height: 700px){
+        display: none;
+    }
     `}
 `;
 

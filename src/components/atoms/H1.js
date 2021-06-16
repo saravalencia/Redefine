@@ -19,8 +19,9 @@ const H1 = styled.h1`
             margin-left: 50px;
 
 
-            @media screen and (max-width: 1280px){ 
+            @media screen and (max-width: 600px), screen and (max-height: 700px){ 
             font-size: 2em;
+            display: block ;
             
             }
     `

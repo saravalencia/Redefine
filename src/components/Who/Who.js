@@ -1,8 +1,14 @@
 import React from "react"; 
 import Styled from "styled-components";
 import Luna from "./Luna";  
-import "../../App.css"; 
-import { Link, animateScroll as scroll } from "react-scroll";
+import Maria from "./Maria";  
+import Caroline from "./Caroline";  
+import "./Who.css"; 
+import { Link as Links, animateScroll as scroll } from "react-scroll";
+import { MdEmail } from 'react-icons/md';
+import {FaPhoneAlt} from "react-icons/fa";
+import {AiFillLinkedin} from "react-icons/ai"; 
+
 const Who = () => {
     
     const H1 = Styled.h1`
@@ -33,7 +39,7 @@ const Who = () => {
     
 
     return (
-<div >
+<div class="Who" >
      <H1>
     <h1>WHO ARE WE?</h1>
     </H1>
@@ -43,7 +49,7 @@ const Who = () => {
     <div className="image-container">
     
   <div className="image lunis">
-  <Link
+  <Links
     activeClass="active"
     to="Luna"
     spy={true}
@@ -54,10 +60,10 @@ const Who = () => {
       <img className="Luna-Berlin size" src="../images/Luna.jpg" alt="Luna Berlin" /> 
      
      <p className="height">LUNA BERLIN <br /> SCRUM MASTER & WORKSHOP LEAD</p>
-     </Link>
+     </Links>
  </div>
  <div className="image">
- <Link
+ <Links
     activeClass="active"
     to="Maria"
     spy={true}
@@ -68,10 +74,10 @@ const Who = () => {
       <img className="Maria-Højgaard size" src="../images/Maria.jpg" alt="Maria Højgaard"/>
      
     <p className="height">MARIA HØJGAARD <br />UX CONSULTANT & CLIENT MANAGER </p>
-    </Link>
+    </Links>
 </div>
 <div className="image">
-<Link
+<Links
     activeClass="active"
     to="Caroline"
     spy={true}
@@ -81,12 +87,12 @@ const Who = () => {
 >
       <img className="Caroline-Haakonson size" src="../images/Caroline.jpg" alt="Caroline Haakonson"/>
       <p className="height">CAROLINE HAAKONSEN <br />UX CONSULTANT & DESIGN LEAD</p>
-      </Link>
+      </Links>
     </div>
    </div>
-
-
-   
+<Luna />
+<Maria /> 
+<Caroline /> 
     </div>
     
     );

@@ -11,7 +11,7 @@ const Ul = styled.ul`
 li{
     padding: 0px 0px; 
     color: #fff; 
-    margin-left: 1%;
+    margin-left: 33%;
     margin-top: 0px;
     font-family: "Arial black"; 
     font-size: 38px;  

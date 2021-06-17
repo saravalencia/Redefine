@@ -1,5 +1,5 @@
 import React from "react"; 
-import "../../App.css"
+import "./Who.css"
 import Styled from "styled-components"; 
 import { MdEmail } from 'react-icons/md';
 import {FaPhoneAlt} from "react-icons/fa";

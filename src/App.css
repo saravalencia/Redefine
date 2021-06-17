@@ -1,0 +1,236 @@
+.App {
+    text-align: center;
+    background-color: white; 
+  }
+  
+  .image{
+  width: 20%; 
+  min-width: 250px; 
+  text-align: center;
+  margin-bottom: 0px; 
+  
+  
+  }
+  
+  .image-container{
+    display:flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    margin-top: 10%; 
+  } 
+  
+  
+  .size{
+    width: 100%; 
+    clip-path: circle(); 
+  
+   
+  
+  }
+  
+  .Maria-Højgaard{
+    margin-bottom: 0px;
+    padding: 0px;
+    
+   
+   
+  }
+  
+  .Luna-Berlin {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    overflow: hidden; 
+  }
+  
+  .Luna {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    overflow: hidden; 
+    border-radius: 50%;
+    width: 20%; 
+    min-width: 250px;
+  
+  }
+  
+  .luna-container{
+   
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left:0.5%;  
+  }
+  
+  
+  .luna-title{
+   font-family: "Arial Black"; 
+   font-size: 48px; 
+   color: #000AFF;
+  
+  }
+  
+  @media screen and (min-width:734px){
+    .luna-title{
+      padding-left: 30%;
+    }
+  }
+  
+  .luna-text{
+    width: 50%;
+    text-align: justify;
+    
+  }
+  
+  .luna-whole-container{
+    line-height: 1em; 
+    margin-top: 300px;
+  }
+  
+  .height{
+    line-height: 20px;
+  }
+  
+  .info-container{
+    display: flex; 
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    width: 60%;
+    margin: auto;
+    
+  
+  }
+  
+  .maria-whole-container{
+  margin-top: 500px;
+  }
+  
+  .maria-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    width: 100%;
+  }
+  
+  .Maria{
+   clip-path: circle();
+   width: 20%;
+   min-width: 250px;
+   
+  }
+  
+  .info-text{
+    text-align: justify;
+    width: 50%;
+    
+  }
+  
+  .title-name{
+    font-family: "Arial Black"; 
+    font-size: 48px; 
+    color: #000AFF; 
+    
+  }
+  
+  @media screen and (min-width: 734px){
+    .title-name{
+      padding-left: 30%; 
+    }
+  }
+  
+  .info-container2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    width:60%;
+    margin: auto;
+  }
+  
+  .caroline-title{
+    font-family: "Arial Black"; 
+    font-size: 48px; 
+    color: #000AFF; 
+  }
+  
+  @media screen and (min-width: 734px){
+    .caroline-title{
+      padding-left: 30%; 
+    }
+  }
+  
+  .caroline-container{
+    display: flex; 
+    justify-content: space-evenly;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap; 
+  }
+  
+  .Caroline{
+    clip-path: circle(); 
+    width: 20%;
+    min-width: 250px;
+  }
+  
+  .caroline-text{
+    text-align: justify;
+    width: 50%;
+    
+  }
+  
+  .info-container-caroline{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    width: 60%;
+    margin: auto;
+  }
+  
+  .caroline-whole-container{
+  margin-top: 700px;
+  }
+  
+
+  .why-section{
+    margin-top: 60px;
+  }
+  .why-title{
+    color: #000AFF;
+    height: 68px;
+    width: 569px;
+    font-family: Arial Black;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0 auto;
+
+  }
+
+  .why-section h2 {
+    margin: 60px 0;
+  }
+
+  .why-section h2, p, h3, h4{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }
+
+  .sc1, .sc2, .sc3{
+    border-radius:50% !important;
+    width:140px; 
+    height:140px;
+    background-size: cover;
+  }
+
+  .sc1{
+    background-image: url("./sc1.png");
+  }
+
+  .sc2{
+    background-image: url("./sc2.png");
+  }
+
+  .sc3{
+    background-image: url("./sc3.png");
+  }

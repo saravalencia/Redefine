@@ -4,6 +4,7 @@ import { MdEmail } from 'react-icons/md';
 import {FaPhoneAlt} from "react-icons/fa";
 import {AiFillLinkedin} from "react-icons/ai"; 
 
+
 const Caroline = () => {
     return (
         <div className="caroline-whole-container">

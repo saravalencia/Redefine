@@ -7,6 +7,10 @@ import Maria from "./components/Who/Maria";
 import Caroline from "./components/Who/Caroline";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Links, animateScroll as scroll } from "react-scroll";
+import H1 from './components/what/H1';
+import './App.css';
+import FirstLandingPage from './components/landingPage/FirstLandingPage';
+//import FirstLandingPage from './components/landingPage/FirstLandingPage';
 
 function App() {
   const [cross, setCross] = useState(); 
@@ -21,6 +25,12 @@ function App() {
     </Route>
     </Switch>
     </Router>
+      {/*<FirstLandingPage />*/}
+      <FirstLandingPage />
+      
+      {/*<H1 />*/}
+      <H1 />
+
     </div>
   );
 }

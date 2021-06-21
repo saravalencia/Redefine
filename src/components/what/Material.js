@@ -7,7 +7,7 @@ import Icons from './Icons';
 
 
 const MainContent = styled.div `  
-    height: 100%;
+    height: 100vh;
     width: 100%;
     padding-left: 5%;
     box-sizing: border-box;
@@ -62,7 +62,7 @@ const Wrapper = styled.div `
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 32px;
-    margin-bottom: 32px;
+    margin-bottom: 0px;
     padding-left: 32px;
     padding-right: 32px;
     display: flex;
@@ -78,7 +78,7 @@ const Material = (  ) => {
         <Wrapper> 
             
             <Sideimage> 
-                <Img src="/images/among-giants.jpg" alt="image" />
+                <Img src="../images/among-giants.jpg" alt="image" />
             <Icons/> 
             </Sideimage> 
 

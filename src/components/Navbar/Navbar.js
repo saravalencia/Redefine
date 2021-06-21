@@ -6,12 +6,11 @@ import "../../App.css";
 
 const Nav = styled.div`
 width: 100%; 
-height: 65px; 
+height: 00px; 
 padding: 0 0px; 
 display:flex; 
 justify-content: space-between; 
-
-
+margin: 0px; 
 
 .logo{
     padding: 0px 0;

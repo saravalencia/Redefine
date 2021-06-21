@@ -1,47 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Noto+Serif&display=swap');
+
+/* Making text center and adding background image and adding a font */
 .Who{
     text-align: center; 
-    background-color: #FFC9D6; 
+    background-color:#97A090; 
     box-sizing: border-box;
+    font-family: 'DM Serif Display', serif;
 }
 
-.image{
-    width: 20%; 
-    min-width: 250px; 
-    text-align: center;
-    margin-bottom: 0px; 
-    
-    
-    }
-    
-    .image-container{
-      display:flex;
-      flex-wrap: wrap; 
-      justify-content: space-evenly; 
-      margin-top: 10%; 
-    } 
-    
-    
+    /* Adding circle image on the three images of Luna, Maria and Caroline */
     .size{
       width: 100%; 
       clip-path: circle(); 
-    
-     
-    
     }
     
-    .Maria-Højgaard{
-      margin-bottom: 0px;
-      padding: 0px;
-      
-     
-     
-    }
-    
+    /* Making the grey filter on Luna image */ 
     .Luna-Berlin {
       -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
       filter: grayscale(100%);
       overflow: hidden; 
     }
+
+    /* Making grey filter on Luna Image and making it Circle form image */ 
     
     .Luna {
       -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -52,74 +33,14 @@
       min-width: 250px;
     
     }
-    
-    .luna-container{
-     
-      display: flex;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-      align-items: center;
-    }
-    
-    
-    .luna-title{
-     font-family: "Arial Black"; 
-     font-size: 48px; 
-     color: #000AFF;
-    
-    }
-    
-    @media screen and (min-width:734px){
-      .luna-title{
-        padding-left: 30%;
-      }
-    }
-    
-    .luna-text{
-      width: 50%;
-      text-align: justify;
-      
-    }
-    
-    .luna-whole-container{
-      line-height: 1em; 
-      margin-top: 300px;
-    }
-    
-    .height{
-      line-height: 20px;
-      font-weight: Bold; 
-      width: 100%;
-    }
-    
-    .info-container{
-      display: flex; 
-      justify-content: space-evenly;
-      flex-wrap: wrap; 
-      position: relative; 
-      top: 100px;
-      margin: auto; 
-      width: 65%; 
-      
-      
-    
-    }
-    
+   
+   /* Bold text for Span*/ 
     .text-bold{
       font-weight: bold; 
     }
     
-    .maria-whole-container{
-    margin-top: 500px;
-    }
-    
-    .maria-container{
-      display: flex;
-      justify-content: space-evenly;
-      flex-wrap: wrap; 
-      width: 100%;
-    }
-    
+    /* Making the Image cirle for Maria */ 
+
     .Maria{
      clip-path: circle();
      width: 20%;
@@ -127,78 +48,10 @@
      
     }
     
-    .info-text{
-      text-align: justify;
-      width: 50%;
-      
-    }
-    
-    .title-name{
-      font-family: "Arial Black"; 
-      font-size: 48px; 
-      color: #000AFF; 
-      
-    }
-    
-    @media screen and (min-width: 734px){
-      .title-name{
-        padding-left: 30%; 
-      }
-    }
-    
-    .info-container2{
-      display: flex;
-      justify-content: space-evenly;
-      flex-wrap: wrap; 
-      position: relative; 
-      top: 100px;
-      margin: auto; 
-      width: 65%; 
-    }
-    
-    .caroline-title{
-      font-family: "Arial Black"; 
-      font-size: 48px; 
-      color: #000AFF; 
-    }
-    
-    @media screen and (min-width: 734px){
-      .caroline-title{
-        padding-left: 30%; 
-      }
-    }
-    
-    .caroline-container{
-      display: flex; 
-      justify-content: space-evenly;
-      width: 100%;
-      margin: auto;
-      flex-wrap: wrap; 
-    }
-    
+        /* Making the Image cirle for Caroline*/ 
     .Caroline{
       clip-path: circle(); 
       width: 20%;
       min-width: 250px;
     }
     
-    .caroline-text{
-      text-align: justify;
-      width: 50%;
-      
-    }
-    
-    .info-container-caroline{
-      display: flex;
-      justify-content: space-evenly;
-      flex-wrap: wrap; 
-      position: relative; 
-      top: 100px;
-      margin: auto; 
-      width: 65%; 
-    }
-    
-    .caroline-whole-container{
-    margin-top: 700px;
-    padding-bottom: 250px; 
-    }

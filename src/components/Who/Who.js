@@ -9,6 +9,7 @@ import { MdEmail } from 'react-icons/md';
 import {FaPhoneAlt} from "react-icons/fa";
 import {AiFillLinkedin} from "react-icons/ai"; 
 
+
 const Who = () => {
     
     const H1 = Styled.h1`
@@ -36,19 +37,36 @@ const Who = () => {
      line-height: 29,74px; 
      
     `; 
-    
+
+    const Image = Styled.div`
+    width: 20%; 
+    min-width: 250px; 
+    text-align: center;
+    margin-bottom: 0px; 
+    `; 
+
+    const ImageContainer = Styled.div`
+    display:flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    margin-top: 10%; 
+    `; 
+
+    const Height = Styled.p`
+    line-height: 20px;
+    font-weight: Bold; 
+    width: 100%;
+    `; 
+
 
     return (
 <div class="Who" >
-     <H1>
-    <h1>WHO ARE WE?</h1>
-    </H1>
+     <H1>WHO ARE WE?</H1>
     <Paragraph>
-     <p>General text about us as service designers... Our values, mission</p>
+     General text about us as service designers... Our values, mission
      </Paragraph>
-    <div className="image-container">
-    
-  <div className="image lunis">
+    <ImageContainer>
+<Image>
   <Links
     activeClass="active"
     to="Luna"
@@ -57,12 +75,13 @@ const Who = () => {
     offset={-170}
     duration={800}
 >
-      <img className="Luna-Berlin size" src="../images/Luna.jpg" alt="Luna Berlin" /> 
-     
-     <p className="height">LUNA BERLIN <br /> SCRUM MASTER & WORKSHOP LEAD</p>
+
+    <img className="Luna-Berlin size"  alt="Luna Berlin" src="../images/Luna.jpg"/>
+ 
+ <Height>LUNA BERLIN <br /> SCRUM MASTER & WORKSHOP LEAD</Height>
      </Links>
- </div>
- <div className="image">
+</Image>
+<Image>
  <Links
     activeClass="active"
     to="Maria"
@@ -73,10 +92,10 @@ const Who = () => {
 >
       <img className="Maria-Højgaard size" src="../images/Maria.jpg" alt="Maria Højgaard"/>
      
-    <p className="height">MARIA HØJGAARD <br />UX CONSULTANT & CLIENT MANAGER </p>
+   <Height>MARIA HØJGAARD <br />UX CONSULTANT & CLIENT MANAGER </Height>
     </Links>
-</div>
-<div className="image">
+</Image>
+<Image>
 <Links
     activeClass="active"
     to="Caroline"
@@ -86,10 +105,10 @@ const Who = () => {
     duration={800}
 >
       <img className="Caroline-Haakonson size" src="../images/Caroline.jpg" alt="Caroline Haakonson"/>
-      <p className="height">CAROLINE HAAKONSEN <br />UX CONSULTANT & DESIGN LEAD</p>
+      <Height>CAROLINE HAAKONSEN <br />UX CONSULTANT & DESIGN LEAD</Height>
       </Links>
-    </div>
-   </div>
+    </Image>
+ </ImageContainer>
 <Luna />
 <Maria /> 
 <Caroline /> 

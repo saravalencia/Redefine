@@ -37,10 +37,10 @@ function FirstLandingPage() {
     return ( 
 
         <MainPart>
-                                  
+                     <img src="../images/Luna.jpg" />              
             
                  <LandingPageText /> 
-             
+            
              
             
        </MainPart>

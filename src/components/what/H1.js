@@ -14,7 +14,7 @@ const Headding = styled.h2`
 
 `;
 const MiddleElement = styled.div `
-  
+  margin-bottom: 0px; 
 `;
 
 

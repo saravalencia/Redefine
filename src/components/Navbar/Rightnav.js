@@ -43,7 +43,7 @@ a{
     font-size: 50px; 
 }
 
-@media (max-width:1780px) {
+@media (max-width:2000px) {
  flex-flow: column nowrap;
  background-color: #000AFF; 
  position: fixed; 
@@ -64,10 +64,10 @@ const RightNav = ({open}) => {
 return (
     <Ul open={open}>
 
-    <li><a href="">WHAT?</a></li>
+    <li><a href="/">WHAT?</a></li>
 
   
-        <li><a href="">WHY?</a></li>
+        <li><a href="/why">WHY?</a></li>
         
      
         <li><a href="/work">WORK?</a></li>

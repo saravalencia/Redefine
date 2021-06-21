@@ -1,29 +1,43 @@
-import React, { useState, Component, render } from "react"; 
+import React, {useState} from "react"; 
 import './App.css';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"; 
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Who from "./components/Who/Who";
-import Luna from "./components/Who/Luna"; 
-import Maria from "./components/Who/Maria";
-import Caroline from "./components/Who/Caroline";
-import H1 from './components/what/H1';
+import WorkedWith from './components/WorkedWith/WorkedWith'
 import FirstLandingPage from './components/landingPage/FirstLandingPage';
 import Why from "./components/Why/Why"; 
 import Navbar from "./components/Navbar/Navbar"; 
-import What from "./components/what/H1";
-import LandingPageText from "./components/landingPage/LandPageText";
-//import FirstLandingPage from './components/landingPage/FirstLandingPage';
-
+import What from "./components/what/What";
+import Contact from './components/Contact'
 
 
 function App() {
   const [cross, setCross] = useState(); 
   return (
     
-    <div className="App">
-    <Navbar />
-    <LandingPageText />
-    <What />
-    </div>
+    <>
+    <BrowserRouter>
+    <Navbar/>
+  <Switch>
+    <Route exact path="/">
+      <FirstLandingPage/>
+      <What/>
+  </Route> 
+  <Route exact path="/work">
+    <WorkedWith/>
+  </Route>
+  <Route exact path="/contact">
+  <Contact/>
+  </Route>
+  <Route exact path="/who">
+  <Who />
+  </Route>
+  <Route exact path="/why">
+  <Why />
+  </Route>
+</Switch>
+  </BrowserRouter>
+  
+   </>
    
   );
 }

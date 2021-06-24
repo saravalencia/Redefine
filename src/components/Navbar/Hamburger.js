@@ -13,6 +13,7 @@ const StyledBurger = styled.div`
   justify-content: space-around; 
   flex-flow: column nowrap;
   z-index: 20;
+  margin-top: 0px; 
   
 
    
@@ -23,19 +24,20 @@ const StyledBurger = styled.div`
     margin: 6px 0;
     visibility: hidden;
   }
+
   
   div{
       width; 2rem; 
       height: 0.5rem; 
       background-color:${({open}) => open ? "#ccc" : "#333"}; 
       border-radius: px; 
-      margin-top: 10px;
+      margin-top: 0px;
       transform-origin: 1px; 
       transition: all 0.3s linear;
       background-color: red; 
       
 &:nth-child(1){
-    transform: ${({ open }) => open ? " rotate(45deg) translate(-4.2px, 6px)" : "rotate(0deg)" };
+    transform: ${({ open }) => open ? " rotate(45deg) translate(-4.6px, 2px)" : "rotate(0deg)" };
    
 }
 
@@ -45,7 +47,8 @@ const StyledBurger = styled.div`
 }
 
 &:nth-child(3){
-    transform: ${({ open }) => open ? "rotate(-45deg) translate(-25px, 10px) " : "rotate(0)" }; 
+    transform: ${({ open }) => open ? "rotate(-45deg) translate(-28px, 15px) " : "rotate(0)" }; 
+    
 }
   }
 
@@ -59,7 +62,7 @@ const HamburgerMenu = ({Navbar}) => {
     <StyledBurger open={open} onClick={() => setOpen(!open)}>
         <div /> 
         <div className="invis"/>
-        <div  />
+        <div className="tip"  />
         
      </StyledBurger>
      <RightNav open={open}/>

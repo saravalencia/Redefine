@@ -6,8 +6,11 @@ import {AiFillLinkedin} from "react-icons/ai";
 import Styled from "styled-components"; 
 
 const CarolineWholeContainer = Styled.div`
-margin-top: 700px;
-padding-bottom: 250px; 
+margin-top: 0px;
+padding-top: 10%; 
+padding-bottom: 0px; 
+background-color:#97A090; 
+height: 100vh; 
 `; 
 
 const CarolineTitle = Styled.h1`

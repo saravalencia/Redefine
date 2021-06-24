@@ -43,7 +43,6 @@ margin-top: 10px;
 const SubText = styled.h1`
 width: 90%; 
 color: white;
-height: 100vh;
 text-align: center; 
 position:absolute; 
 top:67%; 

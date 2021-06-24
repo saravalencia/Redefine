@@ -8,6 +8,9 @@ import Why from "./components/Why/Why";
 import Navbar from "./components/Navbar/Navbar"; 
 import What from "./components/what/What";
 import Contact from './components/Contact'
+import Luna from "./components/Who/Luna"; 
+import Maria from "./components/Who/Maria";
+import Caroline from "./components/Who/Caroline";
 
 
 function App() {
@@ -33,6 +36,15 @@ function App() {
   </Route>
   <Route exact path="/why">
   <Why />
+  </Route>
+  <Route path="/Luna">
+  <Luna />
+  </Route>
+  <Route path="/Maria">
+<Maria />
+  </Route>
+  <Route path="/Caroline">
+  <Caroline />
   </Route>
 </Switch>
   </BrowserRouter>

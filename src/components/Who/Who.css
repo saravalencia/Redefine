@@ -7,6 +7,16 @@
     background-color:#97A090; 
     box-sizing: border-box;
     font-family: 'DM Serif Display', serif;
+    height: 100vh; 
+    width: 100%; 
+    
+}
+
+@media screen and (min-with: 415px){
+  .who{
+    height: 100vh; 
+   
+  }
 }
 
     /* Adding circle image on the three images of Luna, Maria and Caroline */
@@ -54,4 +64,106 @@
       width: 20%;
       min-width: 250px;
     }
+
+    .image-overlay{
+      position: absolute; 
+      top: 39.9%; 
+      left: 0; 
+      height: 38.3%; 
+      width: 100%; 
+      clip-path: circle(); 
+      background-color: rgba(0, 0, 0, 0.6); 
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+      opacity: 0; 
+      transition: opacity 0.25s; 
+
+    }
+
+    .image-overlay > * {
+      transform: translateY(20px); 
+      transition: transform 0.25s; 
+    }
+
+    .image-overlay:hover > * {
+      transform: translateY(0);
+    }
+
+    .image-overlay:hover{
+      opacity: 1;
+    }
     
+    .background-maria{
+      width: 100%;
+      height: 100vh; 
+      background-color:#97A090; 
+    }
+
+  .text-font{
+     font-family: "Quicksand" , sans-serif; 
+     font-weight: bold; 
+     color: #FEE476; 
+     font-size: 2em; 
+  }
+
+  .image-overlay2{
+    position: absolute; 
+      top: 39.9%; 
+    
+      right: 30%; 
+      height: 38.5%; 
+      width: 100%; 
+      clip-path: circle(); 
+      background-color: rgba(0, 0, 0, 0.6); 
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+      opacity: 0; 
+      transition: opacity 0.25s; 
+  }
+
+  .image-overlay2 > * {
+    transform: translateY(20px); 
+    transition: transform 0.25s; 
+  }
+
+  .image-overlay2:hover > * {
+    transform: translateY(0);
+  }
+
+  .image-overlay2:hover{
+    opacity: 1;
+  }
+  
+
+  .image-overlay3{
+    position: absolute; 
+    top: 39.9%; 
+    left: 30%; 
+    height: 38.5%; 
+    width: 100%; 
+    clip-path: circle(); 
+    background-color: rgba(0, 0, 0, 0.6); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    opacity: 0; 
+    transition: opacity 0.25s; 
+
+  }
+
+
+  .image-overlay3 > * {
+    transform: translateY(20px); 
+    transition: transform 0.25s; 
+  }
+
+  .image-overlay3:hover > * {
+    transform: translateY(0);
+  }
+
+  .image-overlay3:hover{
+    opacity: 1;
+  }
+  

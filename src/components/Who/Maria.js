@@ -4,19 +4,25 @@ import { MdEmail } from 'react-icons/md';
 import {FaPhoneAlt} from "react-icons/fa";
 import {AiFillLinkedin} from "react-icons/ai"; 
 import Styled from "styled-components";
+; 
+
 const Maria = () =>{
 
     const MariaWholeContainer = Styled.div`
-    margin-top: 500px;
+    margin-top: 0%;
+    padding-top: 10%;
+   
     `; 
 
     const TitleName = Styled.h1` 
     font-family: "Arial Black"; 
     font-size: 48px; 
     color: #000AFF; 
-    padding-left: 30%; 
+    padding-left: 50%; 
+    margin-top: 0px; 
+    margin-bottom: 3%; 
    @media (max-width: 734px) {
-   padding-left: 00%; 
+   padding-left: 12%; 
   }
     `;
 
@@ -43,6 +49,7 @@ const Maria = () =>{
     `; 
 
     return (
+        <div className="background-maria">
 <MariaWholeContainer>
 <TitleName>WHO IS MARIA?</TitleName>
 <MariaContainer>
@@ -64,6 +71,7 @@ Maria har en  Bachelor i Informations og Performance Design fra Roskilde Univers
                 <p><AiFillLinkedin/>https://www.linkedin.com</p>
        </InfoContainer2>
     </MariaWholeContainer>
+    </div>
     ); 
 }
 

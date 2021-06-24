@@ -4,7 +4,7 @@ import Styled from "styled-components";
 import { MdEmail } from 'react-icons/md';
 import {FaPhoneAlt} from "react-icons/fa";
 import {AiFillLinkedin} from "react-icons/ai"; 
-
+import {BrowserRouter as Router , Link, Redirect, useHistory, Route, Switch} from "react-router-dom"; 
 const Luna = () => {
 
 const H1 = Styled.h1`
@@ -20,7 +20,10 @@ border-radius: 50%;
 
 const LunaWholeContainer = Styled.div`
 line-height: 1em; 
-margin-top: 300px;
+margin-top: 0px;
+padding-top: 10%; 
+background-color:#97A090; 
+height: 100vh; 
 `; 
 
 const LunaTitle = Styled.h1`
@@ -58,13 +61,16 @@ width: 65%;
 const TextBold = Styled.span`
 font-weight: bold; 
 `; 
+
+
  
     return (
+
        <LunaWholeContainer >
         
        <LunaTitle>WHO IS LUNA?</LunaTitle>
-         
-            <LunaContainer id="luna">
+        
+            <LunaContainer id="/Luna">
                    <img className="Luna" src="../images/Luna.jpg" />
                    <LunaText>Service Økonom - Innovation & Entrepreneurship - Service Systems Design 
                    <br />
@@ -91,6 +97,8 @@ Luna var 500 meter fra at løbe et halvmarathon. </LunaText>
              </InfoContainer>
                     
     </LunaWholeContainer > 
+   
+
     )
 }
 

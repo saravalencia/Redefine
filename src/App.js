@@ -11,6 +11,7 @@ import Contact from './components/Contact'
 import Luna from "./components/Who/Luna"; 
 import Maria from "./components/Who/Maria";
 import Caroline from "./components/Who/Caroline";
+import Footer from "./components/footer/Footer";
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
   </Route>
   <Route exact path="/who">
   <Who />
+
   </Route>
   <Route exact path="/why">
   <Why />

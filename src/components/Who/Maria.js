@@ -17,8 +17,8 @@ const Maria = () =>{
     const TitleName = Styled.h1` 
     font-family: "Arial Black"; 
     font-size: 48px; 
-    color: #000AFF; 
-    padding-left: 50%; 
+    color: #EE6C4D; 
+    padding-right: 25%; 
     margin-top: 0px; 
     margin-bottom: 3%; 
    @media (max-width: 734px) {
@@ -30,6 +30,7 @@ const Maria = () =>{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap; 
+    flex-direction: row-reverse; 
     width: 100%;
     `; 
 
@@ -50,11 +51,12 @@ const Maria = () =>{
 
     return (
         <div className="background-maria">
+        <hr className="mariaLine" />
 <MariaWholeContainer>
 <TitleName>WHO IS MARIA?</TitleName>
 <MariaContainer>
         <img className="Maria" id="Maria" src="../images/Maria.jpg" />
-        <Infotext className="info-text">IT systems & performance design
+        <Infotext className="info-text">Service Designer - System og Oplevelsesdesign - Strategi og implementering 
 <br />
 <br />
 Maria har en  Bachelor i Informations og Performance Design fra Roskilde Universitet. Hun har erfaring med urban design, installations design og system design. Maria er en passioneret designer, der søger en mere bæredygtig og kunstnerisk verden. 
@@ -70,7 +72,9 @@ Maria har en  Bachelor i Informations og Performance Design fra Roskilde Univers
                 <p><FaPhoneAlt/>+(45) 22 18 56 15</p>
                 <p><AiFillLinkedin/>https://www.linkedin.com</p>
        </InfoContainer2>
+      
     </MariaWholeContainer>
+    
     </div>
     ); 
 }

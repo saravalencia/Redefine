@@ -9,15 +9,16 @@ const CarolineWholeContainer = Styled.div`
 margin-top: 0px;
 padding-top: 10%; 
 padding-bottom: 0px; 
-background-color:#97A090; 
+background-color:#FFF7EC; 
 height: 100vh; 
 `; 
 
 const CarolineTitle = Styled.h1`
 font-family: "Arial Black"; 
       font-size: 48px; 
-      color: #000AFF; 
-      padding-left: 30%; 
+      color: #EE6C4D; 
+      padding-left: 30%;
+      margin-bottom: 5%; 
       @media (max-width: 734px) {
          padding-left: 00%; 
         }
@@ -52,7 +53,7 @@ const Caroline = () => {
             <CarolineTitle>WHO IS CAROLINE?</CarolineTitle>
            <CarolineContainer>
                 <img className="Caroline" id="Caroline"src="../images/Caroline.jpg" />
-                <CarolineText>Design & Business + Advertising
+                <CarolineText>Design & Business + Advertising + Service Systems Design 
 <br />
 <br />
 Caroline har en Bachelor i Design & Business, og har derudover en uddannelse indefor reklame. Hun har derudover arbejdet i diverse forskellige kreative jobs med fokus på marketing, brugeroplevelser/UX... Noget med Advice opgaver. Hun har øje for detaljen og bruger sit kreative mindset til at redefinere og løse problemer. 
@@ -68,6 +69,7 @@ Caroline har en Bachelor i Design & Business, og har derudover en uddannelse ind
                 <p><FaPhoneAlt/>+(45) 26 55 41 11</p>
                 <p><AiFillLinkedin/>https://www.linkedin.com</p>
              </InfoContainerCaroline>
+           
            </CarolineWholeContainer>
     )
 }

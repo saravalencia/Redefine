@@ -21,15 +21,16 @@ border-radius: 50%;
 const LunaWholeContainer = Styled.div`
 line-height: 1em; 
 margin-top: 0px;
-padding-top: 10%; 
-background-color:#97A090; 
+padding-top: 3%; 
+background-color:#fff7ec; 
 height: 100vh; 
 `; 
 
 const LunaTitle = Styled.h1`
 font-family: "Arial Black"; 
 font-size: 48px; 
-color: #000AFF;
+color: #EE6C4D;
+padding-top: 5%; 
 padding-left: 30%; 
 @media (max-width: 734px) {
    padding-left: 00%; 
@@ -41,6 +42,7 @@ display: flex;
 justify-content: space-evenly;
 flex-wrap: wrap;
 align-items: center;
+padding-top: 3%;
 `;
 
 const LunaText = Styled.p`
@@ -67,7 +69,7 @@ font-weight: bold;
     return (
 
        <LunaWholeContainer >
-        
+       < hr className="lunaLine"/>
        <LunaTitle>WHO IS LUNA?</LunaTitle>
         
             <LunaContainer id="/Luna">
@@ -95,7 +97,7 @@ Luna var 500 meter fra at løbe et halvmarathon. </LunaText>
                 <p><FaPhoneAlt/>+(45) 22 37 74 10</p>
                 <p><AiFillLinkedin/>https://www.linkedin.com/in/luna-berlin-752787127</p>
              </InfoContainer>
-                    
+             
     </LunaWholeContainer > 
    
 
@@ -103,3 +105,4 @@ Luna var 500 meter fra at løbe et halvmarathon. </LunaText>
 }
 
 export default Luna; 
+

@@ -1,4 +1,5 @@
-import React from 'react';
+//import { Collapse } from 'react-collapse';
+import React, { useEffect, useState } from 'react';
 
 import styled from 'styled-components';
 
@@ -7,40 +8,35 @@ import LandingPageText from './LandPageText';
 
 const MainPart = styled.div ` 
         display: flex;
-        //flex-direction: row;
         height: 100vh;
         background-repeat: no-repeat;
-        background-size: cover;
-        background-image: url("/images/pexels.jpg");
+        background-size: fit;
+        background-image: url("/images/Frontpage.png");
         align-items: flex-end;
         justify-content: center;
         height: 100vh;
         
     `;
-    /*const LandingText = styled.div ` 
-        color: black;
-      
-    
-    `;*/
-
-   /* const ImgLanding = styled.img ` 
-        height: 100%;
-        width: 100%; 
-    
-    `; */
  
-
-
 function FirstLandingPage() {
+    const [ checked, setChecked ]= useState(false);
+    useEffect(() => {
+        setChecked(true);
+    }, []);
     
     
     return ( 
 
-        <MainPart>
-                               
+
+
+        <MainPart>  
             
-                 <LandingPageText /> 
-            
+              {/* <Collapse in={checked} {...Collapse(checked ? { timeout: 1000 } : {})}
+                collapsedHeight={50}>  */ } 
+                 <LandingPageText />
+           
+               {/* </Collapse>  */ }  
+           
              
             
        </MainPart>

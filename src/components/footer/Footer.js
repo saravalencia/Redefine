@@ -3,9 +3,9 @@ import Styled from "styled-components";
 import "./footer.css"; 
 
 const FooterContainer = Styled.footer`
-min-width:1440px; 
-min-height:570.47px; 
-background-color: black; 
+/* min-width:1440px;
+min-height:570.47px;  */
+background-color: black;
 `;
 
 const Footer = (props) => {
@@ -48,8 +48,11 @@ const Footer = (props) => {
     <div>
         <hr id="footerLine"/>
     </div>
+    <div>
+    
+    </div>
     <div className="titleFooter">
-     <h1>RE:DEFINE</h1>
+    <h1 className="Rede" >RE:DEFINE</h1>
      <p>Redefine A/S 2022</p>
      <p> Privatlivspolitik</p>
      <p>CookiePolitik</p>

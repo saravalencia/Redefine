@@ -22,13 +22,14 @@ const Who = (props) => {
     `; 
     
     const Paragraph = Styled.p`
-    font-family: "Roboto"; 
-    font-size: 18px; 
-    position: relative; 
-    text-align:justify; 
-    margin-top: 2.5%; 
-    width: 1047px; 
-    height: 240px; 
+    font-family: "Roboto";
+    font-size: 18px;
+    /* position: relative; */
+    text-align:justify;
+    margin-top: 2.5%;
+    width: 65%;
+    /* height: 240px; */
+    
    
     `; 
 
@@ -105,7 +106,7 @@ const Who = (props) => {
 <div class="Who" >
 
 <HeaderContainer>
-     <H1>Hvem er vi?</H1>
+     <H1>Lær os at kende</H1>
     <Paragraph>
     RE:DEFINE er en konsulent virksomhed som kan hjælpe din virksomhed med at få et overblik over forskellige problemstillinger, interessenter, brugere, test, workshops og løsninger både i digitale og fysiske rammer. 
     <br />
@@ -137,7 +138,7 @@ Vi ønsker at løfte vores klienter mest muligt og kombinere dem med andre aktø
       <p className="text-font">More info</p>
       </div>
       </Link>
-    <Height><Span><span>Partner & Creative Consultant</span></Span><br />CAROLINE HAAKSON<ReadMore><p>Læs mere om Caroline ></p></ReadMore></Height>
+    <Height><Span><span>Partner & Creative Consultant</span></Span><br />CAROLINE HAAKSON<ReadMore><p className="about">Læs mere om Caroline ></p></ReadMore></Height>
       </Links>
     </Image>
     <Image>
@@ -155,7 +156,7 @@ Vi ønsker at løfte vores klienter mest muligt og kombinere dem med andre aktø
       <p className="text-font">More info</p>
       </div>
 </Link>
- <Height><Span><span>Partner & Project Manager</span></Span><br />  LUNA BERLIN <ReadMore><p>Læs mere om Caroline ></p></ReadMore> </Height>
+ <Height><Span><span>Partner & Project Manager</span></Span><br />  LUNA BERLIN <ReadMore><p className="about">Læs mere om Caroline ></p></ReadMore> </Height>
  
      </Links>
 </Image>
@@ -174,13 +175,15 @@ Vi ønsker at løfte vores klienter mest muligt og kombinere dem med andre aktø
       <p className="text-font">More info</p>
       </div>
    </Link>  
-<Height><Span><span>Partner & Design Consultant</span></Span><br />MARIA HØJGAARD<ReadMore><p>Læs mere om Caroline ></p> </ReadMore> </Height>
+<Height><Span><span>Partner & Design Consultant</span></Span><br />MARIA HØJGAARD<ReadMore><p className="about">Læs mere om Caroline ></p> </ReadMore> </Height>
     </Links>
 </Image>
  </ImageContainer>
 </div>
 <Caroline />
+<hr className="mariaLine" />
 <Maria />
+<hr className="lunaLine" />
 <Luna />
 <Footer />
     </div>

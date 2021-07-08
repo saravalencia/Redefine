@@ -134,9 +134,7 @@ Vi ønsker at løfte vores klienter mest muligt og kombinere dem med andre aktø
 >
 <Link to="/Caroline">
       <img className="Caroline-Haakonson size" src="../images/Caroline.jpg" alt="Caroline Haakonson"/>
-      <div className="image-overlay3">
-      <p className="text-font">More info</p>
-      </div>
+    
       </Link>
     <Height><Span><span>Partner & Creative Consultant</span></Span><br />CAROLINE HAAKSON<ReadMore><p className="about">Læs mere om Caroline ></p></ReadMore></Height>
       </Links>
@@ -152,9 +150,7 @@ Vi ønsker at løfte vores klienter mest muligt og kombinere dem med andre aktø
 >
 <Link to="/Luna">
     <img className="Luna-Berlin size"  alt="Luna Berlin" src="../images/Luna.jpg"/>
-    <div className="image-overlay2">
-      <p className="text-font">More info</p>
-      </div>
+   
 </Link>
  <Height><Span><span>Partner & Project Manager</span></Span><br />  LUNA BERLIN <ReadMore><p className="about">Læs mere om Caroline ></p></ReadMore> </Height>
  
@@ -171,9 +167,7 @@ Vi ønsker at løfte vores klienter mest muligt og kombinere dem med andre aktø
 >
 <Link to="/Maria">
       <img className="Maria-Højgaard size" src="../images/Maria.jpg" alt="Maria Højgaard"/>
-      <div className="image-overlay">
-      <p className="text-font">More info</p>
-      </div>
+    
    </Link>  
 <Height><Span><span>Partner & Design Consultant</span></Span><br />MARIA HØJGAARD<ReadMore><p className="about">Læs mere om Caroline ></p> </ReadMore> </Height>
     </Links>

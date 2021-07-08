@@ -77,3 +77,15 @@
     left: 2.5%; 
     flex-wrap: wrap; 
 }
+
+@media (max-width: 734px) {
+    .titleFooter{
+      padding-bottom: 10px;
+      height: auto;
+    }
+    .Rede{
+      position: static;
+      left: 0;
+      margin: 20px auto;
+    }
+  }

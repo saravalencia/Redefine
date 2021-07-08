@@ -1,0 +1,78 @@
+.infoFooterContainer{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center; 
+    max-width:88%; 
+    height: 395.24px; 
+    flex-direction: wrap; 
+    margin: auto; 
+}
+
+.text{
+    color:white; 
+    font-family: "Arial Black"; 
+}
+
+.address{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-evenly; 
+    flex-direction: wrap; 
+    line-height:16,71px; 
+    color: #97A090; 
+    font-family: "SF UI" Text;
+}
+
+.Contact{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-evenly; 
+    flex-direction: wrap; 
+    line-height:16,71px; 
+    color: #97A090; 
+    font-family: "SF UI" Text 
+}
+
+.socialMedia{
+    display: flex; 
+    flex-direction: column; 
+    flex-direction:wrap; 
+    line-height:16,71px; 
+    color: #97A090; 
+    font-family: "SF UI" Text
+    
+}
+
+.titleFooter{
+    color: white; 
+    display: flex; 
+   align-items: center;
+   justify-content:space-between;
+    z-index: 2; 
+    width:60%;
+    height:150px;
+    margin-left:20%;
+    flex-wrap: wrap; 
+
+    
+    
+}
+
+#footerLine{
+    background-color: white; 
+    width: 1000.69px;
+    margin-top: 0%; 
+    margin-right: 10.5%; 
+    border: 1px solid white; 
+    
+    
+   
+    
+
+}
+
+.Rede{
+    position: absolute; 
+    left: 2.5%; 
+    flex-wrap: wrap; 
+}

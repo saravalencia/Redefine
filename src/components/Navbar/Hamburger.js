@@ -27,7 +27,7 @@ const StyledBurger = styled.div`
   div{
       width; 2rem; 
       height: 0.5rem; 
-      background-color:${({open}) => open ? "#ccc" : "#333"}; 
+      
       border-radius: px; 
       margin-top: 10px;
       transform-origin: 1px; 

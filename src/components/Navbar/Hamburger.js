@@ -29,7 +29,7 @@ const StyledBurger = styled.div`
   div{
       width; 2rem; 
       height: 0.5rem; 
-      background-color:${({open}) => open ? "#ccc" : "#333"}; 
+      background-color:${({open}) => open ? "#000AFF" : "#FFFFFF"}; 
       border-radius: px; 
       margin-top: 0px;
       transform-origin: 1px; 
@@ -38,6 +38,7 @@ const StyledBurger = styled.div`
       
 &:nth-child(1){
     transform: ${({ open }) => open ? " rotate(45deg) translate(-4.6px, 2px)" : "rotate(0deg)" };
+    background-color:${({ open }) => open ? "#FFFFFF" : "#000AFF" };
    
 }
 
@@ -48,7 +49,7 @@ const StyledBurger = styled.div`
 
 &:nth-child(3){
     transform: ${({ open }) => open ? "rotate(-45deg) translate(-28px, 15px) " : "rotate(0)" }; 
-    
+    background-color:${({ open }) => open ? "#FFFFFF" : "#000AFF" };
 }
   }
 

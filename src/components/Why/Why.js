@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import Styled from "styled-components"; 
+import Footer from '../footer/Footer';
 
 
 
@@ -105,6 +106,7 @@ Hos RE:DEFINE testes et koncept flere gange med diverse interessenter inklusiv b
               </Row>
             </Container>
           </Section>
+          <Footer />
         </Fragment>
     )
 }

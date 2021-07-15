@@ -1,101 +1,31 @@
-import React from 'react';
-import styled, {css} from "styled-components";
-import ImgBck from "./image/BackgroundHow.svg"
-import ImgFirst from "./image/Frontpage.png"
-import Background4 from "./image/Background4.svg"
-import Footer from "../footer/Footer"
+//import { Collapse } from 'react-collapse';
+import React, { useEffect, useState } from 'react';
 
-const FirstSection = styled.div`
-width: 100%;
-height: 100vh;
-background-image: url(${ImgFirst}) ;
-background-size: cover;
-background-position-x: center;
-    background-position-y: center;
+import styled from 'styled-components';
 
-`;
-
-const SecondSection = styled.div`
-width: 100%;
-height: 100vh;
-display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    align-items: flex-end;
+import LandingPageText from './LandPageText';
 
 
-div {
-    width: 40%;
-    display: block;
-    position: absolute;               
-    top: 120%; 
-    margin-left: 9em ;
-    right: 10%;
-   
-}
+const MainPart = styled.div ` 
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100vh;
+        background-image: url("/images/Frontpage.png");
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        align-items: center;
+        justify-content: center;
+    `;
+ 
+function FirstLandingPage() {
+    const [ checked, setChecked ]= useState(false);
+    useEffect(() => {
+        setChecked(true);
+    }, []);
 
-`;
-
-const ThirdSection = styled.div`
-width: 100%;
-height: 100vh;
-background-image: url(${ImgBck}) ;
-background-repeat: no-repeat;
-background-size: cover;
-display: flex;
-flex-wrap: wrap;
-justify-content: flex-end;
-
-div {
-    width: 40%;
-    display: block;
-    position: absolute;               
-    top: 220%; 
-    padding-right: 5em;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
-
-}
-
-h2 {
-    width: 30em;
-    height: 10em;
-    margin: none;
-position: relative;
-right: 60%;
-text-align: center;
-font-size: 3em;
-font-family: Arial, Helvetica, sans-serif;
-letter-spacing: 2px;
-line-height: 2em;
-color: #000;
-font-weight: 800;
-
-}
-span{
-    color: #fff;
-}
-
-`
-const FourthSection = styled.div`
-width: 100%;
-height: 100vh;
-display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: flex-end;
-    justify-content: flex-end;
-    align-items: center;
-
-div {
-    width: 40%;
-    display: block;
-    position: absolute;               
-    top: 315%; 
-    margin-left: 9em ;
     
     
    
@@ -119,97 +49,7 @@ background-image: url(${Background4}) ;
 background-repeat: no-repeat;
 background-size: cover;
 
-`
-const SixthSection = styled.div`
-width: 100%;
-height: 100vh;
-display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    align-items: center;
 
-    h2{
-        width: 90vh;
-        font-family: 'Roboto', sans-serif;
-font-size: 3em;
-color: #000AFF;
-text-align: center;
-
-    }
-
-    p{ 
-        width: 100vh;
-        height: 10em;
-    }
-`
-
-const H1 = styled.h1`
-margin: none;
-position: absolute;
-transform: translate(0, -60%);
-top: 40%;
-left: 24%;
-margin: 2em;
-font-size: 3.5em;
-font-family:  'Roboto', sans-serif;
-letter-spacing: 2.8px;
-line-height: 1.5em;
-color: #000AFF;
-
-span { 
-    color: #526256;
-}
-
-
-
-`;
-
-const H2 = styled.h2`
-font-family: 'Roboto', sans-serif;
-font-size: 3.8em;
-color: #000AFF;
-
-
-
-
-`;
-
-
-const P = styled.p`
-text-align: justify;
-line-height: 1.8em;
-font-size: 1em;
-font-family: Arial, Helvetica, sans-serif;
-
-`;
-const Img = styled.img`
-position: relative;
-top: 30%;
-left: 15%;
-
-`;
-const Img2 = styled.img`
-width: 100vh;
-padding-bottom: 2em;
-`;
-
-
-
-
-
-
-function How() {
-    return (
-    
-        <div className='containerHow'>
-            <FirstSection>
-               
-                <H1> 
-                   Changing the ordinary
-                </H1>
-            </FirstSection>
-            <SecondSection>
             
                 <div>
                 <H2>Design derskaber værdi</H2>

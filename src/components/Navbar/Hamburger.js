@@ -21,7 +21,7 @@ const StyledBurger = styled.div`
   .invis{
     width: 35px;
     height: 3px;
-    margin: 6px 0;
+    margin: 6px 0.0;
     visibility: hidden;
   }
 

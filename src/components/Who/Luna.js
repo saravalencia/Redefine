@@ -30,11 +30,11 @@ height: 100vh;
 `; 
 
 const LunaTitle = Styled.h1`
-font-family: "Arial Black"; 
+font-family: "Arial Helvetica", sans-serif; 
 font-size: 64px; 
 color: #EE6C4D;
 padding-top: 5%; 
-padding-left: 7%; 
+padding-left: 13%; 
 @media (max-width: 734px) {
    padding-left: 00%; 
   }
@@ -51,7 +51,8 @@ padding-top: 3%;
 const LunaText = Styled.p`
 width: 50%;
 text-align: justify;
-font-family: "SF UI";
+font-family: "SF UI Text";
+line-height: 20px; 
 font-size: 18px;  
 `; 
 
@@ -103,9 +104,9 @@ Luna’s spidskompetencer er projektledelse samt at arbejde i tæt kontakt med m
 Luna var 500 meter fra at løbe et halvmarathon. </LunaText>
              </LunaContainer>
                <InfoContainer>
-                <p><MdEmail/><a href="mailto: lberli20@student.aau.dk">lberli20@student.aau.dk</a></p>
-                <p><FaPhoneAlt/><a href="Tel:+(45) 22 37 74 10">+(45) 22 37 74 10</a></p>
-                <p><AiFillLinkedin/><a href="https://www.linkedin.com/in/luna-berlin-752787127">Linkdin</a></p>
+                <p><MdEmail/><a className="icon" href="mailto: lberli20@student.aau.dk">lberli20@student.aau.dk</a></p>
+                <p><FaPhoneAlt/><a className="icon" href="Tel:+(45) 22 37 74 10">+(45) 22 37 74 10</a></p>
+                <p><AiFillLinkedin/><a className="icon" href="https://www.linkedin.com/in/luna-berlin-752787127">Linkdin</a></p>
              </InfoContainer>
              
     </LunaWholeContainer > 

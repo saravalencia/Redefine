@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled, {css} from "styled-components";
 import ImgBck from "./image/BackgroundHow.svg"
 import ImgFirst from "./image/Frontpage.png"
 import Background4 from "./image/Background4.svg"
 import Footer from "../footer/Footer"
+
+
 
 const FirstSection = styled.div`
 width: 100%;
@@ -170,9 +172,6 @@ font-family: 'Roboto', sans-serif;
 font-size: 3.8em;
 color: #000AFF;
 
-
-
-
 `;
 
 
@@ -199,13 +198,15 @@ padding-bottom: 2em;
 
 
 
-function How() {
+function How(open) {
+
     return (
     
         <div className='containerHow'>
+      
             <FirstSection>
                
-                <H1> 
+                <H1 > 
                    Changing the ordinary
                 </H1>
             </FirstSection>

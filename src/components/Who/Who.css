@@ -44,8 +44,8 @@ body{
       filter: grayscale(100%);
       overflow: hidden; 
       border-radius: 50%;
-      width: 20%; 
-      min-width: 250px;
+      width: 0%; 
+      min-width: 400px;
     
     }
    
@@ -58,19 +58,21 @@ body{
     /* Making the Image cirle for Maria */ 
 
     .Maria{
-     clip-path: circle();
-     width: 25%;
-     min-width: 250px;
-     position: relative; 
+     border-radius: 50%;
+     width: 0%;
+     min-width: 400px;
+     position: static; 
      bottom: 10px; 
+     overflow: hidden; 
+     height: auto; 
      
     }
     
     /* Making the Image cirle for Caroline*/ 
     .Caroline{
-      clip-path: circle(); 
-      width: 20%;
-      min-width: 250px;
+      border-radius: 50%; 
+      width: 25%;
+      min-width: 400px;
     }
     
     .background-maria{
@@ -129,7 +131,7 @@ a{
   text-decoration: inherit; 
 }
 
-a:hover{
-  color: rgb(238, 108, 77); 
+.icon:hover{
+  color: #EE6C4D; 
 }
 

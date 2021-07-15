@@ -25,7 +25,7 @@ const Footer = (props) => {
      <div className="Contact">
      <p className="text">Contact</p>
      <br/>
-     <span>+45 26 55 41 11 </span>
+     <span><a className="phoneCompany" href="Tel:+45 26 55 41 11">+45 26 55 41 11</a></span>
      <span>hello@redefine.dk</span>
      <br />
      <br/>
@@ -36,10 +36,10 @@ const Footer = (props) => {
      <div className="socialMedia">
      <p className="text">Social Media</p>
      <br/>
-     <span>Facebook </span>
-     <span>Twitter </span>
-     <span>Linkedin</span>
-     <span>Instagram </span>
+     <span className="socialIcon">Facebook </span>
+     <span className="socialIcon">Twitter </span>
+     <span className="socialIcon">Linkedin</span>
+     <span className="socialIcon">Instagram </span>
     <br/>
     <br/>
      </div>

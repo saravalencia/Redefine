@@ -40,7 +40,6 @@
     line-height:16,71px; 
     color: #97A090; 
     font-family: "SF UI" Text
-    
 }
 
 .titleFooter{
@@ -64,11 +63,6 @@
     margin-top: 0%; 
     margin-right: 10.5%; 
     border: 1px solid white; 
-    
-    
-   
-    
-
 }
 
 .Rede{
@@ -87,4 +81,18 @@
       left: 0;
       margin: 20px auto;
     }
+  }
+
+  .socialIcon:hover{
+      color: white; 
+      cursor: pointer; 
+  
+  }
+
+  .phoneCompany{
+      color:#97A090; 
+  }
+
+  .phoneCompany:hover{
+      color:white;
   }

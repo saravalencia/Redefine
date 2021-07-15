@@ -128,7 +128,10 @@ Vi ønsker at løfte vores klienter mest muligt og kombinere dem med andre aktø
     <ImageContainer>
        
     <Image>
-<Links
+
+
+ <img className="Caroline-Haakonson size" src="../images/Caroline.jpg" alt="Caroline Haakonson"/>
+ <Links
     activeClass="active"
     to="Caroline"
     spy={true}
@@ -136,10 +139,6 @@ Vi ønsker at løfte vores klienter mest muligt og kombinere dem med andre aktø
     offset={-300}
     duration={800}
 >
-<Link to="/Caroline">
-      <img className="Caroline-Haakonson size" src="../images/Caroline.jpg" alt="Caroline Haakonson"/>
-    
-      </Link>
     <Height><Span><span>Partner & Creative Consultant</span></Span><br />CAROLINE HAAKSON<ReadMore>Læs mere om Caroline ></ReadMore></Height>
       </Links>
     </Image>
@@ -156,7 +155,7 @@ Vi ønsker at løfte vores klienter mest muligt og kombinere dem med andre aktø
     <img className="Luna-Berlin size"  alt="Luna Berlin" src="../images/Luna.jpg"/>
    
 </Link>
- <Height><Span><span>Partner & Project Manager</span></Span><br />LUNA BERLIN <ReadMore>Læs mere om Caroline ></ReadMore> </Height>
+ <Height><Span><span>Partner & Project Manager</span></Span><br />LUNA BERLIN<ReadMore>Læs mere om Caroline ></ReadMore> </Height>
  
      </Links>
 </Image>
@@ -168,6 +167,7 @@ Vi ønsker at løfte vores klienter mest muligt og kombinere dem med andre aktø
     smooth={true}
     offset={-250}
     duration={800}
+    className="no-hover"
 >
 <Link to="/Maria">
       <img className="Maria-Højgaard size" src="../images/Maria.jpg" alt="Maria Højgaard"/>

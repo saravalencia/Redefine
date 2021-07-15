@@ -36,8 +36,10 @@ const Logo = styled.h1`
 font-size: 1.5em; 
 position:fixed;
 margin-left: 10px;
-margin-top: 10px;
-z-index: 90;
+margin-top: 1%;
+margin-bottom: 0px; 
+font-size: 3.3em; 
+z-index: 0;
 font-family: Arial, Helvetica, sans-serif;
 .logo1{
     color: black;
@@ -58,16 +60,20 @@ font-size: 1.2em;
 }
 `;
 
+const Span = styled.span`
+position. relative; 
+bottom: 30px;
+border-radius: 50%; 
+`; 
+
 
 
 export function Navbar(props){
 return (
     <Nav >
   <div className="logo">
-  
-  <Logo>
- <h1 className="logo-name">RE:<span className="logo1">DEFINE</span></h1>
- </Logo>
+
+   <Logo>RE<Span>:</Span><span className="logo1">DEFINE</span></Logo>
  
 </div>
 <HamburgerMenu />

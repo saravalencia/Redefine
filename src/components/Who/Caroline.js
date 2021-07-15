@@ -40,6 +40,7 @@ const CarolineContainer= Styled.div`
 const CarolineText = Styled.p `
 text-align: justify;
 width: 50%;
+font-size: 18px; 
 font-family: "SF UI"; 
 `;
 
@@ -84,9 +85,9 @@ stå ved det, har hendes år under studerne i Jylland givet hende jydementalitet
 
                </CarolineContainer>
                <InfoContainerCaroline>
-                <p><MdEmail/>< a href="mailto: caroline.haakonsen@live.dk">caroline.haakonsen@live.dk</a></p>
-                <p><FaPhoneAlt/><a href="Tel:+(45) 26 55 41 11">+(45) 26 55 41 11</a></p>
-                <p><AiFillLinkedin/><a href="https://www.linkedin.com/in/carocaro/">Linkdin</a></p>
+                <p><MdEmail/><a className="icon" href="mailto: caroline.haakonsen@live.dk">caroline.haakonsen@live.dk</a></p>
+                <p><FaPhoneAlt/><a className="icon" href="Tel:+(45) 26 55 41 11">+(45) 26 55 41 11</a></p>
+                <p><AiFillLinkedin/><a className="icon" href="https://www.linkedin.com/in/carocaro/">Linkdin</a></p>
              </InfoContainerCaroline>
            
            </CarolineWholeContainer>

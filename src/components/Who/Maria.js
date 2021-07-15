@@ -79,7 +79,6 @@ Med en bachelor i Informatik og Performance Design fra Roskilde Universitet og e
 <br />
 <br />
 Med specialisering i Service Design, har Maria arbejdet med adskillige brancher indenfor både store og mindre design projekter, såsom bydesign, installationsdesign og softwareudvikling. Hendes primære fokus er på konceptudvikling og implementering af innovative løsninger i et aktørdrevet landskab.
-
 <br />
 <br/>
 <TextBold><span className="text-bold">Stilling</span></TextBold>
@@ -88,9 +87,9 @@ Med specialisering i Service Design, har Maria arbejdet med adskillige brancher 
 <TextBold><span className="text-bold">Funfact</span></TextBold></Infotext>
  </MariaContainer>
     <InfoContainer2>
-    <p><MdEmail/><a href="mailto: mander20@student.aau.dk">mander20@student.aau.dk</a></p>
-                <p><FaPhoneAlt/><a href="Tel:+(45) 22 18 56 15">+(45) 22 18 56 15</a></p>
-                <p><AiFillLinkedin/><a href="https://www.linkedin.com/in/maria-h%C3%B8jgaard/">Linkdin</a></p>
+    <p><MdEmail/><a className="icon" href="mailto: mander20@student.aau.dk">mander20@student.aau.dk</a></p>
+                <p><FaPhoneAlt/><a className="icon" href="Tel:+(45) 22 18 56 15">+(45) 22 18 56 15</a></p>
+                <p><AiFillLinkedin/><a className="icon" href="https://www.linkedin.com/in/maria-h%C3%B8jgaard/">Linkdin</a></p>
        </InfoContainer2>
       
     </MariaWholeContainer>

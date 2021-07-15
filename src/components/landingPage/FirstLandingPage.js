@@ -20,6 +20,7 @@ background-position-x: center;
 const SecondSection = styled.div`
 width: 100%;
 height: 100vh;
+margin-bottom: 0px; 
 display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -32,7 +33,7 @@ div {
     display: block;
     position: absolute;               
     top: 120%; 
-    margin-left: 9em ;
+    margin-left: 8em ;
     right: 10%;
    
 }
@@ -98,6 +99,7 @@ div {
     position: absolute;               
     top: 315%; 
     margin-left: 9em ;
+    margin-bottom: 0px; 
     
     
    
@@ -124,7 +126,7 @@ background-size: cover;
 `
 const SixthSection = styled.div`
 width: 100%;
-height: 100vh;
+height: 110vh;
 display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -143,6 +145,11 @@ text-align: center;
     p{ 
         width: 100vh;
         height: 10em;
+        margin-top: 0px;
+        margin-bottom: 0px;  
+        
+       
+       
     }
 `
 
@@ -171,6 +178,7 @@ const H2 = styled.h2`
 font-family: 'Roboto', sans-serif;
 font-size: 3.8em;
 color: #000AFF;
+margin-bottom: 0px; 
 
 `;
 

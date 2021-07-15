@@ -13,6 +13,7 @@ const P = styled.p`
                 position: absolute;
                 margin-left: 6em;
                 top: 85%;
+                margin-top: 0px; 
                 font-size: 1.2em;
                 line-height: 1.5em;
             text-align: justify;
@@ -28,6 +29,7 @@ const P = styled.p`
 ${props => props.stylingForContactName && css`
                 font-weight: 600;
                 position: absolute;
+                margin-top: 10px; 
                 margin-left: 3.4em;
                 font-size: 1.4em;
                 top: -4%;
@@ -44,6 +46,7 @@ ${props => props.stylingForContactName && css`
 ${props => props.stylingForContactEmail && css`
                 font-weight: 600;
                 position: absolute;
+                margin-top: 0px; 
                 margin-left: 3.4em;
                 font-size: 1.4em;
                 top: 13%;
@@ -58,6 +61,7 @@ ${props => props.stylingForContactEmail && css`
 ${props => props.stylingForContactMessage && css`
                 font-weight: 600;
                 position: absolute;
+                margin-top: 0px; 
                 margin-left: 3.4em;
                 font-size: 1.4em;
                 top: 28%;

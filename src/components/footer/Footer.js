@@ -15,18 +15,18 @@ const Footer = (props) => {
      <div className="address">
      <p className="text">Address</p>
      <br />
-     <span>Humlebækgade 12 </span>
-     <span>2200 København N</span>
-     <span>Denmark</span>
+     <span className="footerText">Humlebækgade 12 </span>
+     <span className="footerText">2200 København N</span>
+     <span className="footerText">Denmark</span>
      <br />
      <br /> 
-     <span>CVR-nr.: xxxxxxxxxx</span>
+     <span className="footerText">CVR-nr.: xxxxxxxxxx</span>
      </div>
      <div className="Contact">
      <p className="text">Contact</p>
      <br/>
-     <span><a className="phoneCompany" href="Tel:+45 26 55 41 11">+45 26 55 41 11</a></span>
-     <span><a className="emailCompany" href="mailto: redefine@outlook.dk">Redefine@outlook.dk</a></span>
+     <span><a className="phoneCompany footerText" href="Tel:+45 26 55 41 11">+45 26 55 41 11</a></span>
+     <span><a className="emailCompany footerText" href="mailto: redefine@outlook.dk">Redefine@outlook.dk</a></span>
      <br />
      <br/>
      <br />
@@ -36,10 +36,10 @@ const Footer = (props) => {
      <div className="socialMedia">
      <p className="text">Social Media</p>
      <br/>
-     <span className="socialIcon">Facebook </span>
-     <span className="socialIcon">Twitter </span>
-     <span className="socialIcon">Linkedin</span>
-     <span className="socialIcon">Instagram </span>
+     <span className="socialIcon footerText">Facebook </span>
+     <span className="socialIcon footerText">Twitter </span>
+     <span className="socialIcon footerText">Linkedin</span>
+     <span className="socialIcon footerText">Instagram </span>
     <br/>
     <br/>
      </div>
@@ -53,10 +53,10 @@ const Footer = (props) => {
     </div>
     <div className="titleFooter">
     <h1 className="Rede" >RE:DEFINE</h1>
-     <p>Redefine A/S 2022</p>
-     <p> Privatlivspolitik</p>
-     <p>CookiePolitik</p>
-     <p>Etik i Redefine</p>
+     <p className="ptext">Redefine A/S 2022</p>
+     <p className="ptext"> Privatlivspolitik</p>
+     <p className="ptext">CookiePolitik</p>
+     <p className="ptext">Etik i Redefine</p>
      </div>
    </FooterContainer>
     )

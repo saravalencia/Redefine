@@ -30,11 +30,11 @@ height: 100vh;
 `; 
 
 const LunaTitle = Styled.h1`
-font-family: "Arial Helvetica", sans-serif; 
+font-family: "Arial Black"; 
 font-size: 64px; 
 color: #EE6C4D;
 padding-top: 5%; 
-padding-left: 13%; 
+padding-left: 10%; 
 @media (max-width: 734px) {
    padding-left: 00%; 
   }
@@ -51,7 +51,7 @@ padding-top: 3%;
 const LunaText = Styled.p`
 width: 50%;
 text-align: justify;
-font-family: "SF UI Text";
+font-family: "Arial"; 
 line-height: 20px; 
 font-size: 18px;  
 `; 

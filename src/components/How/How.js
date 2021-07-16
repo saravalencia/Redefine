@@ -75,8 +75,8 @@ div {
    
 }
 h2 {
-    font-family: 'Roboto', sans-serif;
-font-size: 4em;
+    font-family: Arial Black;
+font-size: 3.5em;
 color: #EE6C4D;
 width: 120vh;
 padding-left: 3em;
@@ -108,8 +108,8 @@ span {
 `;
 
 const H2 = styled.h2`
-font-family: 'Roboto', sans-serif;
-font-size: 3.8em;
+font-family: Arial Black;
+font-size: 3.3em;
 color: #EE6C4D;
 
 

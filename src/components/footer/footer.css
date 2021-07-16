@@ -10,7 +10,18 @@
 
 .text{
     color:white; 
-    font-family: "Arial Black"; 
+    font-family: "Roboto"; 
+}
+
+.ptext{
+    font-family: 'Roboto';
+    color: #97A090;
+    font-size: 1em;
+}
+.footerText{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #97A090;
+    font-weight: 500;
 }
 
 .address{
@@ -69,6 +80,7 @@
     position: absolute; 
     left: 2.5%; 
     flex-wrap: wrap; 
+    font-family: Arial Black, Helvetica, sans-serif;
 }
 
 @media (max-width: 734px) {

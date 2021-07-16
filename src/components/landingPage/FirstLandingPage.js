@@ -3,7 +3,6 @@ import styled, {css} from "styled-components";
 import ImgBck from "./image/BackgroundHow.svg"
 import ImgFirst from "./image/Frontpage.png"
 import Background4 from "./image/Background4.svg"
-import Footer from "../footer/Footer"
 
 
 
@@ -71,7 +70,7 @@ position: relative;
 right: 60%;
 text-align: center;
 font-size: 3em;
-font-family: Arial, Helvetica, sans-serif;
+font-family: Arial Black, Helvetica, sans-serif;
 letter-spacing: 2px;
 line-height: 2em;
 color: #000;
@@ -135,7 +134,7 @@ display: flex;
 
     h2{
         width: 90vh;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Arial Black', sans-serif;
 font-size: 3em;
 color: #000AFF;
 text-align: center;
@@ -147,7 +146,7 @@ text-align: center;
         height: 10em;
         margin-top: 0px;
         margin-bottom: 0px;  
-        
+       
        
        
     }
@@ -175,7 +174,7 @@ span {
 `;
 
 const H2 = styled.h2`
-font-family: 'Roboto', sans-serif;
+font-family: 'Arial Black';
 font-size: 3.8em;
 color: #000AFF;
 margin-bottom: 0px; 
@@ -186,8 +185,8 @@ margin-bottom: 0px;
 const P = styled.p`
 text-align: justify;
 line-height: 1.8em;
-font-size: 1em;
-font-family: Arial, Helvetica, sans-serif;
+font-size: 1.2em;
+font-family: 'SF UI';
 
 `;
 const Img = styled.img`
@@ -255,7 +254,7 @@ Sammen indgår vi i en kreativ process, der udvælges og tilpasses til dine beho
 <SixthSection>
     <h2>Vi finder ind til roden af dine problemer og vender dem til nye muligheder.</h2>
     <Img2 src="../images/graph.png"/> 
-    <p>Vores designproces trækker på den udbredte tilgang, Design Thinking. Denne tilgang er ligeledes representeret gennem den klassiske Double Diamond, som vi har draget inspiration fra i vores proces model nedenfor. Sammen med erfaring og viden indenfor både digitalt, urbant og oplevelsesøkonomisk design skaber vi en proces, der er rettet mod at skabe stærke og værdifulde løsninger ud fra dine behov.</p>
+    <P>Vores designproces trækker på den udbredte tilgang, Design Thinking. Denne tilgang er ligeledes representeret gennem den klassiske Double Diamond, som vi har draget inspiration fra i vores proces model nedenfor. Sammen med erfaring og viden indenfor både digitalt, urbant og oplevelsesøkonomisk design skaber vi en proces, der er rettet mod at skabe stærke og værdifulde løsninger ud fra dine behov.</P>
 </SixthSection>
 
 

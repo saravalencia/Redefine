@@ -16,14 +16,14 @@ const Who = (props) => {
 
     const H1 = Styled.h1`
     font-family: "Arial Black"; 
-    font-size: 48px; 
+    font-size: 3.8em; 
     color: #000AFF; 
     position: relative; 
     `; 
     
     const Paragraph = Styled.p`
-    font-family: "Roboto";
-    font-size: 18px;
+   font-family: "Arial"; 
+    font-size: 1.2em;
     /* position: relative; */
     text-align:justify;
     margin-top: 2.5%;
@@ -38,7 +38,8 @@ const Who = (props) => {
     min-height: 100px;
     min-width: 10%;
     padding-top: 10%;
-    font-size: 46px; 
+    font-size: 3em; 
+    font-family: Arial ;
     `; 
    
     const ContainerFlex = Styled.div`
@@ -75,6 +76,7 @@ const Who = (props) => {
     width: 100%;
     margin-top: 10%; 
     line-height: 20px;
+    font-family: 'SF UI';
    
     `; 
 
@@ -92,11 +94,13 @@ const Who = (props) => {
     const Span = Styled.span`
     color:#FEE476; 
     line-height: 30px;
+    font-family: 'SF UI';
     `;
 
     const ReadMore = Styled.p`
     color: white; 
     margin: 0px; 
+    font-family: 'SF UI';
     &:hover{
         cursor: pointer;
         text-decoration: underline; 

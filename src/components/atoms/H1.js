@@ -10,7 +10,7 @@ const H1 = styled.h1`
     display: flex;
     flex-direction: column;
     font-size: 3em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial Black, Helvetica, sans-serif;
 
 
     ${props => props.stylingForContact && css`

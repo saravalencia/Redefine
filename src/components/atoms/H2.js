@@ -12,7 +12,7 @@ justify-content: space-evenly;
 margin-top: 1.5em;
 line-height: 1.5em;
 text-align: justify;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family: Arial, Helvetica, sans-serif;
 
 
 ${props => props.smallerFont && css`

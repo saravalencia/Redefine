@@ -23,7 +23,7 @@ const Maria = () =>{
     font-family: "Arial Black"; 
     font-size: 64px; 
     color: #EE6C4D; 
-    padding-right: 46%; 
+    padding-right: 50%; 
     margin-top: 0px; 
     margin-bottom: 3%; 
    @media (max-width: 734px) {
@@ -42,7 +42,7 @@ const Maria = () =>{
     const Infotext = Styled.p`
     text-align: justify;
     width: 50%;
-    font-family: "SF UI"; 
+    font-family: "Arial"; 
     font-size: 18px; 
    
     `; 

@@ -26,7 +26,7 @@ const Footer = (props) => {
      <p className="text">Contact</p>
      <br/>
      <span><a className="phoneCompany" href="Tel:+45 26 55 41 11">+45 26 55 41 11</a></span>
-     <span>hello@redefine.dk</span>
+     <span><a className="emailCompany" href="mailto: redefine@outlook.dk">Redefine@outlook.dk</a></span>
      <br />
      <br/>
      <br />

@@ -96,3 +96,12 @@
   .phoneCompany:hover{
       color:white;
   }
+
+  .emailCompany{
+      color: #97A090
+  }
+  .emailCompany:hover{
+      color: white; 
+      cursor: pointer; 
+
+  }

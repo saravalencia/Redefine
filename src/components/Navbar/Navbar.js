@@ -39,7 +39,7 @@ margin-left: 10px;
 margin-top: 1%;
 margin-bottom: 0px; 
 font-size: 3.3em; 
-z-index: 0;
+z-index: 89;
 font-family: Arial, Helvetica, sans-serif;
 .logo1{
     color: black;

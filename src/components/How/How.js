@@ -67,7 +67,7 @@ div {
     padding-right: 5em;
     @media (max-width:734px){
         width: 80%; 
-        top: 270%; 
+        top: 250%; 
         padding-right: 2em; 
     }
    
@@ -98,8 +98,8 @@ div {
     margin-left: 9em ;
     @media (max-width: 734px){
         width: 80%; 
-        top: 400%; 
-        margin-left: 2em; 
+        top: 360%; 
+        margin-left: 2.5em; 
     }
     
    
@@ -116,6 +116,7 @@ padding-bottom: 1em;
     font-size: 3em; 
     padding-left: 0px; 
     padding-bottom: 0px; 
+    text-align: center; 
 }
    
 }

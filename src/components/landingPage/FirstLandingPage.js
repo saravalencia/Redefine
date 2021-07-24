@@ -27,6 +27,9 @@ display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
     align-items: flex-end;
+    @media (max-width: 734px){
+        height: 170vh;  
+    }
 
 
 div {
@@ -38,6 +41,11 @@ div {
     top: 120%; 
     margin-left: 8em ;
     right: 10%;
+    @media (max-width: 734px){
+    width: 75%; 
+    
+        
+    }
    
 }
 
@@ -52,6 +60,10 @@ background-size: cover;
 display: flex;
 flex-wrap: wrap;
 justify-content: flex-end;
+@media (max-width: 734px){
+    height: 80vh; 
+}
+
 
 div {
     width: 40%;
@@ -63,6 +75,10 @@ div {
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
+    @media (max-width: 734px){
+        width: 50%; 
+    }
+   
 
 }
 
@@ -73,19 +89,25 @@ h2 {
 position: relative;
 right: 60%;
 text-align: center;
-font-size: 3em;
+font-size: 2.5em;
 font-family: Arial, Helvetica, sans-serif;
 letter-spacing: 2px;
 line-height: 2em;
 color: #000;
 font-weight: 800;
+@media (max-width: 734px){
+   font-size: 1em;  
+   margin-left: 80%; 
+   margin-top: 220%; 
+}
 
 }
 span{
     color: #fff;
 }
 
-`
+
+`; 
 const FourthSection = styled.div`
 width: 100%;
 height: 100vh;
@@ -95,6 +117,9 @@ display: flex;
     align-content: flex-end;
     justify-content: flex-end;
     align-items: center;
+    @media (max-width){
+
+    }
 
 div {
     width: 40%;
@@ -103,19 +128,43 @@ div {
     top: 315%; 
     margin-left: 9em ;
     margin-bottom: 0px; 
+    @media (max-width: 734px){
+        width: 100%; 
+        height: 0vh; 
+        margin-right: 25%; 
+        margin-top: 25%; 
+        
+    }
     
     
    
 }
 h2 {
-    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-size: 4em;
 color: #000AFF;
 width: 50vh;
-
 padding-bottom: 1em;
+@media (max-width: 734px){
+    margin-top: 30%; 
+    font-size: 3em; 
+    text-align: center; 
+    margin-left: 7.5%; 
+
+}
    
 }
+
+p {
+ @media (max-width: 734px){
+        width: 90%; 
+        margin-left: 2.5%; 
+        
+    }
+}
+
+
+
 
 `;
 
@@ -125,6 +174,10 @@ height: 100vh;
 background-image: url(${Background4}) ;
 background-repeat: no-repeat;
 background-size: cover;
+@media (max-width: 734px){
+    width: 100%; 
+    height: 40vh; 
+}
 
 `
 const SixthSection = styled.div`
@@ -142,6 +195,10 @@ display: flex;
 font-size: 3em;
 color: #000AFF;
 text-align: center;
+@media (max-width: 734px){
+    font-size: 2em; 
+    width: 80%; 
+}
 
     }
 
@@ -150,6 +207,11 @@ text-align: center;
         height: 10em;
         margin-top: 0px;
         margin-bottom: 0px;  
+        @media (max-width: 734px){
+        width: 90%;  
+        line-height: 20px; 
+        text-align: justify; 
+        }
         
        
        
@@ -168,6 +230,10 @@ font-family:  'Roboto', sans-serif;
 letter-spacing: 2.8px;
 line-height: 1.5em;
 color: #000AFF;
+@media (max-width: 734px){
+    margin-left: 3%;  
+    text-align: center; 
+}
 
 span { 
     color: #526256;
@@ -182,6 +248,9 @@ font-family: 'Roboto', sans-serif;
 font-size: 3.8em;
 color: #000AFF;
 margin-bottom: 0px; 
+@media (max-width: 734px){
+    text-align: center; 
+}
 
 `;
 
@@ -191,6 +260,11 @@ text-align: justify;
 line-height: 1.8em;
 font-size: 1em;
 font-family: Arial, Helvetica, sans-serif;
+@media (max-width: 734px){
+    width: 100%; 
+    height: 20vh; 
+    
+}
 
 `;
 const Img = styled.img`
@@ -199,11 +273,20 @@ margin-left: 10%;
 margin-top: 15%;
 top: 30%;
 left: 15%;
+@media (max-width: 734px){
+    width: 90%; 
+    position: relative;
+    top: 750px;
+    margin-left: 5%;
+}
 
 `;
 const Img2 = styled.img`
 width: 100vh;
 padding-bottom: 2em;
+@media (max-width: 734px){
+width: 80%; 
+}
 `;
 
 
@@ -227,7 +310,7 @@ function How(open) {
             
                 <div>
                 <H2>Design derskaber værdi</H2>
-                <P>Vi udvikler værdiskabende løsninger indenfor brugerdreven innovation og Service Design.
+                <P className="second-paragraf">Vi udvikler værdiskabende løsninger indenfor brugerdreven innovation og Service Design.
 
 RE:DEFINE er et fremtidsfokuseret designbureau, som kan hjælpe din virksomhed med udvikling af både digitale og fysiske designløsninger for at øge dine kunders serviceoplevelse. Med den nyeste viden indenfor serviceorienteret, systembaseret og brugercentreret design tilbyder vi designrådgivning, workshop facilitering, konceptudvikling af innovative løsninger samt optimering af eksisterende processer og interessent-netværk.
 

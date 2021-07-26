@@ -21,7 +21,7 @@ display: flex;
     align-content: flex-end;
     justify-content: flex-end;
     @media (max-width: 734px){
-    
+    height: 120vh; 
         padding-bottom: 50px; 
     }
 
@@ -67,6 +67,7 @@ div {
     padding-right: 5em;
     @media (max-width:734px){
         width: 70%; 
+     
         
     }
    
@@ -98,6 +99,7 @@ div {
     @media (max-width: 734px){
         width: 80%; 
         margin-left: 2em; 
+        margin-top: 50%; 
     }
     
    

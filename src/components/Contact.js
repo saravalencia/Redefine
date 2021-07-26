@@ -14,8 +14,15 @@
     display: flex;
     flex-direction: column;
     width: 30em;
-    margin-top: 3em;
-    padding-left: 2em;
+    margin-top: 0em;
+    padding-left: 1em;
+    @media (max-width: 700px){
+    width:70%; 
+    height: 110vh; 
+    }
+    @media (max-width: 378px){
+        width: 50%; 
+    }
 
     label{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -32,6 +39,7 @@
      height: 20em;
      border: none;
  }
+}
   `;
 
 

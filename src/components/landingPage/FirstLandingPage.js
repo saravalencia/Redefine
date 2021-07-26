@@ -8,14 +8,14 @@ import "./landingpage.css";
 
 
 const FirstSection = styled.div`
-width: 100%;
+max-width: 100%;
 height: 100vh;
 background-image: url(${ImgFirst}) ;
 background-size: cover;
 background-position-x: center;
     background-position-y: center;
     @media (max-width: 812px){
-        min-width: 100%; 
+        width: 100%; 
     }
 
 `;
@@ -44,19 +44,10 @@ div {
     top: 120%; 
     margin-left: 8em ;
     right: 10%;
-<<<<<<< HEAD
-    @media (max-width: 734px){
-    width: 75%; 
-    
-        
-    }
-   
-=======
     @media (max-width: 770px){
        
         width: 80%;
 }
->>>>>>> 258e33757def724172052f5ac0ff9d7ea6317bac
 }
 
 `;
@@ -86,8 +77,9 @@ div {
     align-content: center;
     flex-wrap: wrap;
     @media (max-width: 770px){
-  top: 210%;
-}
+  top: 290%;
+  width: 100%;
+  left: 40%; 
 
 }
 
@@ -105,8 +97,8 @@ line-height: 2em;
 color: #000;
 font-weight: 800;
 @media (max-width: 770px){
-  font-size: 2em;
-  width: 16em;
+    font-size: 1em;
+    width: 100%;
   right: 40%;
 }
 
@@ -139,6 +131,8 @@ div {
     margin-bottom: 0px; 
     @media (max-width: 770px){
   margin-left: 0%;
+  width: 70%;
+  margin-top: 80%;
 }
     
    
@@ -189,7 +183,7 @@ display: flex;
     align-content: center;
     align-items: center;
     @media (max-width: 770px){
-   height: 80vh;
+   height: 100vh;
 }
 
     h2{
@@ -209,7 +203,7 @@ text-align: center;
         width: 80%;
         height: 10em;
         margin-top: 0px;
-        margin-bottom: 0px;  
+        margin-bottom: 50%;  
        
        
     }
@@ -220,7 +214,7 @@ margin: none;
 position: absolute;
 transform: translate(0, -60%);
 top: 40%;
-left: 23%;
+left: 24%;
 margin: 2em;
 font-size: 3.5em;
 font-family:  'Roboto', sans-serif;
@@ -228,7 +222,8 @@ letter-spacing: 2.8px;
 line-height: 1.5em;
 color: #000AFF;
 @media (max-width: 770px){
-  left: 0%;
+   left: 0%;
+   margin-left: 1.5em;
 }
 
 span { 

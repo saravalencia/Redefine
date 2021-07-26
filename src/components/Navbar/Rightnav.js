@@ -59,6 +59,9 @@ a{
  padding-top: 4.5; 
  transition: transform 0.5s ease-in-out;
  z-index: 1;
+ @media (max-width: 700px){
+     width: 400px;
+ }
 }
 
 `;

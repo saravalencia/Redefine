@@ -3,6 +3,7 @@ import styled, {css} from "styled-components";
 import ImgBck from "./image/BackgroundHow.svg"
 import ImgFirst from "./image/Frontpage.png"
 import Background4 from "./image/Background4.svg"
+import "./landingpage.css"; 
 
 
 
@@ -13,6 +14,9 @@ background-image: url(${ImgFirst}) ;
 background-size: cover;
 background-position-x: center;
     background-position-y: center;
+    @media (max-width: 812px){
+        min-width: 100%; 
+    }
 
 `;
 
@@ -75,34 +79,29 @@ div {
     align-content: center;
     flex-wrap: wrap;
     @media (max-width: 734px){
-        width: 50%; 
+        width: 40%; 
     }
    
 
 }
 
 h2 {
-    width: 30em;
+    width: 25em;
     height: 10em;
     margin: none;
 position: relative;
 right: 60%;
 text-align: center;
-<<<<<<< HEAD
 font-size: 3em;
 font-family: Arial Black, Helvetica, sans-serif;
-=======
-font-size: 2.5em;
-font-family: Arial, Helvetica, sans-serif;
->>>>>>> responsive
 letter-spacing: 2px;
 line-height: 2em;
 color: #000;
 font-weight: 800;
 @media (max-width: 734px){
    font-size: 1em;  
-   margin-left: 80%; 
-   margin-top: 220%; 
+   margin-left: 60%; 
+   margin-top: 250%; 
 }
 
 }
@@ -114,7 +113,7 @@ span{
 `; 
 const FourthSection = styled.div`
 width: 100%;
-height: 100vh;
+height: 110vh;
 display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -186,7 +185,7 @@ background-size: cover;
 `
 const SixthSection = styled.div`
 width: 100%;
-height: 110vh;
+height: 120vh;
 display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -207,20 +206,11 @@ text-align: center;
     }
 
     p{ 
-        width: 100vh;
+        width: 80%;
         height: 10em;
         margin-top: 0px;
         margin-bottom: 0px;  
-<<<<<<< HEAD
        
-=======
-        @media (max-width: 734px){
-        width: 90%;  
-        line-height: 20px; 
-        text-align: justify; 
-        }
-        
->>>>>>> responsive
        
        
     }
@@ -266,18 +256,8 @@ margin-bottom: 0px;
 const P = styled.p`
 text-align: justify;
 line-height: 1.8em;
-<<<<<<< HEAD
 font-size: 1.2em;
 font-family: 'SF UI';
-=======
-font-size: 1em;
-font-family: Arial, Helvetica, sans-serif;
-@media (max-width: 734px){
-    width: 100%; 
-    height: 20vh; 
-    
-}
->>>>>>> responsive
 
 `;
 const Img = styled.img`
@@ -289,7 +269,7 @@ left: 15%;
 @media (max-width: 734px){
     width: 90%; 
     position: relative;
-    top: 750px;
+    top: 900px;
     margin-left: 5%;
 }
 

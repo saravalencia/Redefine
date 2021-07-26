@@ -30,7 +30,7 @@ div {
     width: 40%;
     display: block;
     position: absolute;               
-    top: 120%; 
+    top: 110%; 
     margin-left: 9em ;
     
    
@@ -48,7 +48,7 @@ div {
 
 const ThirdSection = styled.div`
 width: 100%;
-height: 100vh;
+height: 110vh;
 background-image: url(${ImgBck}) ;
 background-repeat: no-repeat;
 background-size: cover;
@@ -98,7 +98,7 @@ div {
     margin-left: 9em ;
     @media (max-width: 734px){
         width: 80%; 
-        top: 360%; 
+        top: 380%; 
         margin-left: 2.5em; 
     }
     
@@ -179,11 +179,11 @@ const Img2 = styled.img`
 position: relative;
 left: -57%;
 @media (max-width: 734px){
-   width: 50%; 
+   width: 45%; 
    padding-right: 0%; 
-   padding-top: 100%; 
+   padding-top: 130%; 
   position: relative; 
-  left: -110px;   
+  left: -120px;   
 }
 `;
 const Img3 = styled.img`
@@ -192,7 +192,7 @@ bottom: 25%;
 right: 13vh;
 @media (max-width: 734px){
     width: 50%; 
-    bottom: 5%; 
+    bottom: 2.5%; 
     right: 25%; 
 }
 

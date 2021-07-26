@@ -10,6 +10,10 @@ const Div = styled.div`
     background-color: #fff7EC;
     margin-top: 40;
     flex-flow: column;
+    @media (max-width: 700px){
+       height: 50%;  
+      
+    }
 `;
 
 export default Div

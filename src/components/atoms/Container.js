@@ -7,6 +7,9 @@ width: 100%;
 height: 80vh;
 margin: 0px auto;
 justify-content: space-evenly;
+@media (max-with: 700px){
+    max-w
+}
 
 `;
 

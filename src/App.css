@@ -1,6 +1,8 @@
-.App {
-
- 
+html,body {
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	min-width: 100%; 
 }
 
 

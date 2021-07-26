@@ -8,6 +8,9 @@ height: 50em;
 max-width: 400px;
 max-height: 200px;
 cursor: pointer;
+@media (max-width: 700px){
+    max-width: 100%; 
+}
 
 `;
 

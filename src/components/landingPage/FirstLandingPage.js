@@ -85,8 +85,8 @@ line-height: 2em;
 color: #000;
 font-weight: 800;
 @media (max-width: 770px){
-  font-size: 2em;
-  width: 16em;
+    font-size: 1.2em;
+    width: initial;
   right: 40%;
 }
 
@@ -115,6 +115,7 @@ div {
     margin-bottom: 0px; 
     @media (max-width: 770px){
   margin-left: 0%;
+  width: 70%;
 }
     
    
@@ -154,7 +155,7 @@ display: flex;
     align-content: center;
     align-items: center;
     @media (max-width: 770px){
-   height: 80vh;
+   height: 90vh;
 }
 
     h2{
@@ -185,7 +186,7 @@ margin: none;
 position: absolute;
 transform: translate(0, -60%);
 top: 40%;
-left: 23%;
+left: 24%;
 margin: 2em;
 font-size: 3.5em;
 font-family:  'Roboto', sans-serif;
@@ -193,7 +194,8 @@ letter-spacing: 2.8px;
 line-height: 1.5em;
 color: #000AFF;
 @media (max-width: 770px){
-  left: 0%;
+   left: 0%;
+   margin-left: 1.5em;
 }
 
 span { 

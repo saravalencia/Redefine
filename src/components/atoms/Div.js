@@ -11,7 +11,11 @@ const Div = styled.div`
     margin-top: 40;
     flex-flow: column;
     @media (max-width: 700px){
-       height: 50%;  
+    max-width: 100%; 
+       
+       
+   
+      
       
     }
 `;

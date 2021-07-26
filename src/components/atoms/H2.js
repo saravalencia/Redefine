@@ -14,6 +14,8 @@ line-height: 1.5em;
 text-align: justify;
 font-family: Arial, Helvetica, sans-serif;
 @media (max-width: 700px){
+    display: none;
+    
   
 }
 
@@ -51,6 +53,7 @@ ${props => props.stylingForContactDown && css`
 ${props => props.stylingWorked && css`
                font-size: 2em;
                padding-bottom: 1em;
+           
 
        
     `

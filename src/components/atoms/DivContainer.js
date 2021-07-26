@@ -12,7 +12,7 @@ const DivContainer = styled.div`
     margin-bottom: 4em;
     @media (max-width:700px){
         width: 50%; 
-        height: 20%;
+        height: 10%;
     }
    
 `;

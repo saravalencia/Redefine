@@ -10,7 +10,7 @@ const P = styled.p`
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     @media (max-width: 700px){
         width: 60%; 
-        height: 50vh; 
+        height: 90vh; 
         font-size: 0.1em;
     }
 

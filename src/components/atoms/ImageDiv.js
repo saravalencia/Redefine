@@ -11,7 +11,7 @@ cursor: pointer;
 @media (max-width: 700px){
     max-width: 100%; 
     margin-bottom: 10%;
-    display: none; 
+    
 }
 
 `;

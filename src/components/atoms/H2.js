@@ -14,7 +14,7 @@ line-height: 1.5em;
 text-align: justify;
 font-family: Arial, Helvetica, sans-serif;
 @media (max-width: 700px){
-    display: none;
+ 
     
   
 }

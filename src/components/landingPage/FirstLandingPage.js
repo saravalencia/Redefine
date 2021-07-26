@@ -153,6 +153,9 @@ display: flex;
     flex-wrap: nowrap;
     align-content: center;
     align-items: center;
+    @media (max-width: 770px){
+   height: 80vh;
+}
 
     h2{
         width: 90vh;

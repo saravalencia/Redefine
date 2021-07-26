@@ -1,12 +1,14 @@
 import React from 'react';
 import styled, {css} from "styled-components";
 import ImgBck from "./image/BackgroundHow.svg"
+import "./How.css"; 
 
 
 const FirstSection = styled.div`
 width: 100%;
 height: 100vh;
 background-color: #97A090;
+padding: 0px; 
 
 `;
 
@@ -18,6 +20,10 @@ display: flex;
     flex-wrap: wrap;
     align-content: flex-end;
     justify-content: flex-end;
+    @media (max-width: 734px){
+        height:1100px; 
+        padding-bottom: 50px; 
+    }
 
 
 div {
@@ -28,6 +34,14 @@ div {
     margin-left: 9em ;
     
    
+
+
+@media (max-width: 734px){
+    width: 80%; 
+    top: 100%; 
+    margin-left: 2em; 
+}
+
 }
 
 `;
@@ -41,6 +55,9 @@ background-size: cover;
 display: flex;
 flex-wrap: wrap;
 justify-content: flex-end;
+@media (max-width: 734px) {
+    height: 900px; 
+}
 
 div {
     width: 40%;
@@ -48,6 +65,11 @@ div {
     position: absolute;               
     top: 220%; 
     padding-right: 5em;
+    @media (max-width:734px){
+        width: 80%; 
+        top: 270%; 
+        padding-right: 2em; 
+    }
    
 
     
@@ -63,7 +85,10 @@ display: flex;
     flex-wrap: wrap;
     align-content: flex-end;
     justify-content: flex-end;
-
+    
+    @media (max-width: 734px) {
+        height: 1100px; 
+    }
 
 div {
     width: 40%;
@@ -71,6 +96,11 @@ div {
     position: absolute;               
     top: 315%; 
     margin-left: 9em ;
+    @media (max-width: 734px){
+        width: 80%; 
+        top: 400%; 
+        margin-left: 2em; 
+    }
     
    
 }
@@ -81,6 +111,12 @@ color: #EE6C4D;
 width: 120vh;
 padding-left: 3em;
 padding-bottom: 1em;
+@media (max-width: 734px){
+    width: initial; 
+    font-size: 3em; 
+    padding-left: 0px; 
+    padding-bottom: 0px; 
+}
    
 }
 
@@ -88,8 +124,8 @@ padding-bottom: 1em;
 
 
 const H1 = styled.h1`
-margin: none;
-position: absolute;
+margin-top: 0px; 
+position: absolute; 
 transform: translate(0, -60%);
 top: 40%;
 margin: 2em;
@@ -98,12 +134,17 @@ font-family: Arial, Helvetica, sans-serif;
 letter-spacing: 2px;
 line-height: 1.5em;
 color: #FEE476;
-
 span { 
     color: #526256;
 }
-
-
+@media(max-width: 734px){
+   width: 85%;
+   transform: initial; 
+   top: 15%; 
+   font-size: 2em; 
+   margin: 5%; 
+   
+}
 
 `;
 
@@ -111,9 +152,9 @@ const H2 = styled.h2`
 font-family: Arial Black;
 font-size: 3.3em;
 color: #EE6C4D;
-
-
-
+@media (max-width: 734px){
+    font-size: 3em; 
+}
 
 `;
 
@@ -126,16 +167,33 @@ font-family: Arial, Helvetica, sans-serif;
 
 `;
 const Img = styled.img`
+@media (max-width: 734px){
+     position: relative; 
+     top: 200px; 
+     width: 75%;  
+}
 
 `;
 const Img2 = styled.img`
 position: relative;
 left: -57%;
+@media (max-width: 734px){
+   width: 50%; 
+   padding-right: 0%; 
+   padding-top: 100%; 
+  position: relative; 
+  left: -110px;   
+}
 `;
 const Img3 = styled.img`
 position: relative;
 bottom: 25%;
 right: 13vh;
+@media (max-width: 734px){
+    width: 50%; 
+    bottom: 5%; 
+    right: 25%; 
+}
 
 `;
 

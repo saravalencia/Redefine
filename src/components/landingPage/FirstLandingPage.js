@@ -20,6 +20,7 @@ const SecondSection = styled.div`
 width: 100%;
 height: 100vh;
 margin-bottom: 0px; 
+margin-top: 0px; 
 display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -29,7 +30,9 @@ display: flex;
 
 div {
     width: 40%;
-    display: block;
+    height: auto; 
+    display: flex;
+    flex-direction: column; 
     position: absolute;               
     top: 120%; 
     margin-left: 8em ;
@@ -190,7 +193,9 @@ font-family: 'SF UI';
 
 `;
 const Img = styled.img`
-position: relative;
+position: static; 
+margin-left: 10%; 
+margin-top: 15%;
 top: 30%;
 left: 15%;
 

@@ -37,7 +37,10 @@ div {
     top: 120%; 
     margin-left: 8em ;
     right: 10%;
-   
+    @media (max-width: 770px){
+       
+        width: 80%;
+}
 }
 
 `;
@@ -62,6 +65,9 @@ div {
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
+    @media (max-width: 770px){
+  top: 210%;
+}
 
 }
 
@@ -78,6 +84,11 @@ letter-spacing: 2px;
 line-height: 2em;
 color: #000;
 font-weight: 800;
+@media (max-width: 770px){
+  font-size: 2em;
+  width: 16em;
+  right: 40%;
+}
 
 }
 span{
@@ -102,7 +113,9 @@ div {
     top: 315%; 
     margin-left: 9em ;
     margin-bottom: 0px; 
-    
+    @media (max-width: 770px){
+  margin-left: 0%;
+}
     
    
 }
@@ -110,9 +123,12 @@ h2 {
     font-family: 'Roboto', sans-serif;
 font-size: 4em;
 color: #000AFF;
-width: 50vh;
 
 padding-bottom: 1em;
+@media (max-width: 770px){
+   font-size: 2.5em;
+  
+}
    
 }
 
@@ -124,6 +140,9 @@ height: 100vh;
 background-image: url(${Background4}) ;
 background-repeat: no-repeat;
 background-size: cover;
+@media (max-width: 770px){
+   display:none ;
+}
 
 `
 const SixthSection = styled.div`
@@ -141,15 +160,18 @@ display: flex;
 font-size: 3em;
 color: #000AFF;
 text-align: center;
+@media (max-width: 770px){
+   font-size: 2em;
+   width: 100%;
+}
 
     }
 
     p{ 
-        width: 100vh;
+        width: 80%;
         height: 10em;
         margin-top: 0px;
         margin-bottom: 0px;  
-       
        
        
     }
@@ -160,13 +182,16 @@ margin: none;
 position: absolute;
 transform: translate(0, -60%);
 top: 40%;
-left: 24%;
+left: 23%;
 margin: 2em;
 font-size: 3.5em;
 font-family:  'Roboto', sans-serif;
 letter-spacing: 2.8px;
 line-height: 1.5em;
 color: #000AFF;
+@media (max-width: 770px){
+  left: 0%;
+}
 
 span { 
     color: #526256;
@@ -181,6 +206,9 @@ font-family: 'Arial Black';
 font-size: 3.8em;
 color: #000AFF;
 margin-bottom: 0px; 
+@media (max-width: 770px){
+   font-size: 3em;
+}
 
 `;
 
@@ -190,6 +218,9 @@ text-align: justify;
 line-height: 1.8em;
 font-size: 1.2em;
 font-family: 'SF UI';
+@media (max-width: 770px){
+   font-size: 0.9em;
+}
 
 `;
 const Img = styled.img`
@@ -198,11 +229,17 @@ margin-left: 10%;
 margin-top: 15%;
 top: 30%;
 left: 15%;
+@media (max-width: 770px){
+   display: none;
+}
 
 `;
 const Img2 = styled.img`
 width: 100vh;
 padding-bottom: 2em;
+@media (max-width: 770px){
+  width: 80%;
+}
 `;
 
 

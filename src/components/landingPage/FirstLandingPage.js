@@ -33,6 +33,7 @@ display: flex;
     @media (max-width: 734px){
         height: 170vh;  
     }
+   
 
 
 div {
@@ -47,6 +48,10 @@ div {
     @media (max-width: 770px){
        
         width: 80%;
+}
+@media (max-width: 1300px){
+      
+     top: auto;
 }
 }
 
@@ -63,6 +68,9 @@ flex-wrap: wrap;
 justify-content: flex-end;
 @media (max-width: 734px){
     height: 80vh; 
+}
+@media (max-width: 1300px){
+    height: 100vh; 
 }
 
 
@@ -101,6 +109,9 @@ font-weight: 800;
     width: 100%;
   right: 40%;
 }
+@media (max-width: 1300px){
+    font-size: 2em;
+   width: 210%;
 
 }
 span{
@@ -133,6 +144,11 @@ div {
   margin-left: 0%;
   width: 70%;
   margin-top: 80%;
+}
+@media (max-width: 1300px){
+  width: 80%;
+  position: absolute;
+  right: 8%;
 }
     
    
@@ -172,6 +188,10 @@ background-size: cover;
 @media (max-width: 770px){
    display:none ;
 }
+@media (max-width: 1300px){
+   height: 120vh ;
+   margin-top: 2em
+}
 
 `
 const SixthSection = styled.div`
@@ -189,12 +209,16 @@ display: flex;
     h2{
         width: 90vh;
         font-family: 'Arial Black', sans-serif;
-font-size: 3em;
+font-size: 2em;
 color: #000AFF;
 text-align: center;
 @media (max-width: 770px){
    font-size: 2em;
    width: 100%;
+}
+@media (max-width: 1300px){
+   font-size: 2em;
+   width: 60%;
 }
 
     }
@@ -224,6 +248,10 @@ color: #000AFF;
 @media (max-width: 770px){
    left: 0%;
    margin-left: 1.5em;
+}
+@media (max-width: 1300px){
+   left: 16%;
+   
 }
 
 span { 
@@ -265,6 +293,9 @@ left: 15%;
 @media (max-width: 770px){
    display: none;
 }
+@media (max-width: 1300px){
+    width: 40%;
+}
 
 `;
 const Img2 = styled.img`
@@ -295,7 +326,7 @@ function How(open) {
             <SecondSection>
             
                 <div>
-                <H2>Design derskaber værdi</H2>
+                <H2>Design der skaber værdi</H2>
                 <P className="second-paragraf">Vi udvikler værdiskabende løsninger indenfor brugerdreven innovation og Service Design.
 
 RE:DEFINE er et fremtidsfokuseret designbureau, som kan hjælpe din virksomhed med udvikling af både digitale og fysiske designløsninger for at øge dine kunders serviceoplevelse. Med den nyeste viden indenfor serviceorienteret, systembaseret og brugercentreret design tilbyder vi designrådgivning, workshop facilitering, konceptudvikling af innovative løsninger samt optimering af eksisterende processer og interessent-netværk.
@@ -308,7 +339,7 @@ Da vores arbejde i høj grad er feltbaseret, er vi klar til at møde jer, der hv
 <ThirdSection>
    
 <div>
-     <h2>WE PUT <span>HUMANS FIRST</span> , AS WE BELIEVE THAT THE GREATEST <span>SOLUTIONS</span>  COMES FROM <span>CO-CREATING</span> , NOT ONLY WITH THE CLIENT, BUT BY <span>COLLABORATING WITH STAKEHOLDERS AND THE USERS </span>WITHIN THE PROJECT <span>ECOSYSTEM.</span> </h2>
+     <h2>WE PUT <span>HUMANS FIRST</span>, AS WE BELIEVE THAT THE GREATEST <span>SOLUTIONS</span>  COMES FROM <span>CO-CREATING</span>, NOT ONLY WITH THE CLIENT, BUT BY <span>COLLABORATING WITH STAKEHOLDERS AND THE USERS </span>WITHIN THE PROJECT <span>ECOSYSTEM.</span> </h2>
          
 </div>
 

@@ -101,7 +101,7 @@ color: #fff;
     margin-bottom: 7em;
     
 
-                @media screen and (max-width: 700px), screen and (max-height: 700px){
+                @media screen and (max-width: 700px), screen and {
                     font-size: 1.1em;
                     display: none;
                     

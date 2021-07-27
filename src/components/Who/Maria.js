@@ -23,7 +23,7 @@ const Maria = () =>{
     font-family: "Arial Black"; 
     font-size: 64px; 
     color: #EE6C4D; 
-    padding-right: 50%; 
+    padding-right: 48%; 
     margin-top: 0px; 
     margin-bottom: 3%; 
    @media (max-width: 734px) {

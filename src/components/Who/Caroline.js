@@ -22,7 +22,7 @@ const CarolineTitle = Styled.h1`
 font-family: "Arial Black"; 
       font-size: 64px; 
       color: #EE6C4D; 
-      padding-left: 29%;
+      padding-left: 35%;
       margin-bottom: 2.%; 
       @media (max-width: 734px) {
          padding-left: 00%; 

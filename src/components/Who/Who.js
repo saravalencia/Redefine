@@ -110,6 +110,11 @@ const Who = (props) => {
     color: #000AFF; 
     `;
 
+    const Name = Styled.p`
+    font-family: "Arial Black"; 
+    margin: 0px; 
+    `; 
+
     return (
 <div class="Who" >
 
@@ -132,18 +137,18 @@ Vi ønsker at løfte vores klienter mest muligt og kombinere dem med andre aktø
     <ImageContainer>
        
     <Image>
-
-
- <img className="Caroline-Haakonson size" src="../images/Caroline.jpg" alt="Caroline Haakonson"/>
- <Links
+    <Links
     activeClass="active"
     to="Caroline"
     spy={true}
     smooth={true}
-    offset={-300}
+    offset={-200}
     duration={800}
 >
-    <Height><Span><span>Partner & Creative Consultant</span></Span><br />CAROLINE HAAKSON<ReadMore>Læs mere om Caroline ></ReadMore></Height>
+
+ <img className="Caroline-Haakonson size" src="../images/Caroline.jpg" alt="Caroline Haakonson"/>
+
+    <Height><Span><span>Partner & Creative Consultant</span></Span><br /><Name>CAROLINE HAAKONSEN</Name><ReadMore>Læs mere om Caroline ></ReadMore></Height>
       </Links>
     </Image>
     <Image>
@@ -152,14 +157,14 @@ Vi ønsker at løfte vores klienter mest muligt og kombinere dem med andre aktø
     to="Luna"
     spy={true}
     smooth={true}
-    offset={-170}
+    offset={-210}
     duration={800}
 >
-<Link to="/Luna">
+
     <img className="Luna-Berlin size"  alt="Luna Berlin" src="../images/Luna.jpg"/>
    
-</Link>
- <Height><Span><span>Partner & Project Manager</span></Span><br />LUNA BERLIN<ReadMore>Læs mere om Caroline ></ReadMore> </Height>
+
+ <Height><Span><span>Partner & Project Manager</span></Span><br /><Name>LUNA BERLIN</Name><ReadMore>Læs mere om Luna ></ReadMore> </Height>
  
      </Links>
 </Image>
@@ -169,15 +174,15 @@ Vi ønsker at løfte vores klienter mest muligt og kombinere dem med andre aktø
     to="Maria"
     spy={true}
     smooth={true}
-    offset={-250}
+    offset={-200}
     duration={800}
     className="no-hover"
 >
-<Link to="/Maria">
+
       <img className="Maria-Højgaard size" src="../images/Maria.jpg" alt="Maria Højgaard"/>
     
-   </Link>  
-<Height><Span><span>Partner & Design Consultant</span></Span><br />MARIA HØJGAARD<ReadMore>Læs mere om Caroline ></ReadMore> </Height>
+
+<Height><Span><span>Partner & Design Consultant</span></Span><br /><Name>MARIA HØJGAARD</Name><ReadMore>Læs mere om Maria ></ReadMore> </Height>
     </Links>
 </Image>
  </ImageContainer>

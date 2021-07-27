@@ -34,7 +34,7 @@ font-family: "Arial Black";
 font-size: 64px; 
 color: #EE6C4D;
 padding-top: 5%; 
-padding-left: 10%; 
+padding-left: 14%; 
 @media (max-width: 734px) {
    padding-left: 00%; 
   }

@@ -83,7 +83,7 @@ return (
         <li><a href="/how">HOW?</a></li>
         
      
-        <li><a href="/work">WORK?</a></li>
+        <li><a href="/work">WORK</a></li>
         
    
         <li><a href="/who">WHO?</a></li>

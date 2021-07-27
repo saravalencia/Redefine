@@ -3,6 +3,8 @@ import styled from "styled-components";
 import RightNav from "./Rightnav"; 
 import HamburgerMenu from "./Hamburger";
 import "../../App.css";
+import "./navbar.css";
+
 
 const Nav = styled.div`
     
@@ -76,7 +78,9 @@ return (
     <Nav >
   <div className="logo">
 
-   <Logo>RE<Span>:</Span><span className="logo1">DEFINE</span></Logo>
+  
+    <img src="../images/logo-redefine.svg" /> 
+   {/*<Logo>RE<Span>:</Span><span className="logo1">DEFINE</span></Logo>*/}
  
 </div>
 <HamburgerMenu />

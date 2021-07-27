@@ -52,7 +52,8 @@ const Footer = (props) => {
     
     </div>
     <div className="titleFooter">
-    <h1 className="Rede" >RE:DEFINE</h1>
+    <img src="../Images/logo-redefine.svg" className="Rede" style={{width:"200px", height: "auto", backgroundColor: "white"}} />
+   {/* <h1 className="Rede" >RE:DEFINE</h1>*/}
      <p className="ptext">Redefine A/S 2022</p>
      <p className="ptext"> Privatlivspolitik</p>
      <p className="ptext">CookiePolitik</p>

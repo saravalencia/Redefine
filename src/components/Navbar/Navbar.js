@@ -1,8 +1,10 @@
-import React, {useState, useEffect} from "react"; 
+import React, {useState, useEffect, Component} from "react"; 
 import styled from "styled-components"; 
 import HamburgerMenu from "./Hamburger";
 import "../../App.css";
 import "./navbar.css";
+
+
 
 
 const Nav = styled.div`
@@ -76,9 +78,9 @@ export function Navbar(props){
 return (
     <Nav >
   <div className="logo">
-
-   <Logo>RE<Span>:</Span><span className="logo1">DEFINE</span></Logo>
-  
+ <Logo> <img src='../Images/logo-redefine.svg' alt='Redefine logo' style={{width:'300px', height: 'auto'}}/></Logo>
+ 
+   {/*<Logo>RE<Span>:</Span><span className="logo1">DEFINE</span></Logo>*/}
 </div>
 <HamburgerMenu />
  

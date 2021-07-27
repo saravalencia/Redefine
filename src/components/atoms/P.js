@@ -8,11 +8,7 @@ const P = styled.p`
     text-align: justify;
     padding-top: 3em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    @media (max-width: 700px){
-        width: 60%; 
-        height: 90vh; 
-        font-size: 0.1em;
-    }
+    
 
     ${props => props.stylingForContact && css`
                 position: absolute;
@@ -105,9 +101,9 @@ color: #fff;
     margin-bottom: 7em;
     
 
-                @media screen and (max-width: 600px), screen and (max-height: 700px){
+                @media screen and (max-width: 700px), screen and (max-height: 700px){
                     font-size: 1.1em;
-                    
+                    display: none;
                     
         }
 

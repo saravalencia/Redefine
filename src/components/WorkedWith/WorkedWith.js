@@ -26,7 +26,7 @@ cursor: pointer;
 const H22 = styled.h2`
 
 text-align : center;
-font-size : 1em;
+font-size : 2em;
 display: flex;
 flex-direction: row;
 position: relative;

@@ -4,7 +4,7 @@ import Styled from "styled-components";
 import { MdEmail } from 'react-icons/md';
 import {FaPhoneAlt} from "react-icons/fa";
 import {AiFillLinkedin} from "react-icons/ai"; 
-import {BrowserRouter as Router , Link, Redirect, useHistory, Route, Switch} from "react-router-dom"; 
+
 const Luna = () => {
 
 const H1 = Styled.h1`

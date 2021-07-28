@@ -10,6 +10,10 @@ import "./landingpage.css";
 const FirstSection = styled.div`
 max-width: 100%;
 height: 100vh;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
 background-image: url(${ImgFirst}) ;
 background-size: cover;
 background-position-x: center;
@@ -232,12 +236,8 @@ text-align: center;
 `
 
 const H1 = styled.h1`
-margin: none;
-position: absolute;
-transform: translate(0, -60%);
-top: 40%;
-left: 27%;
-margin: 2em;
+font-family: Roboto, sans-serif;
+letter-spacing: 2.8px;
 font-size: 3.5em;
 font-family:  'Roboto', sans-serif;
 letter-spacing: 2.8px;

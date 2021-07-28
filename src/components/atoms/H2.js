@@ -34,6 +34,10 @@ ${props => props.stylingForContact && css`
                 padding-right: 5em;
                 padding-top: 1em;
                 font-size: 1.5em;
+                 
+        @media (max-width: 1300px) and (min-width: 800px){
+    font-size: 1.2em;
+    font-weight: 100;
 
        
     `

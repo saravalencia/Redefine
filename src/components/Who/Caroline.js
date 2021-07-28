@@ -27,6 +27,10 @@ font-family: "Arial Black";
       @media (max-width: 734px) {
          padding-left: 00%; 
         }
+        @media (max-width: 1300px) and (min-width: 800px){
+            font-size: 3em;
+       
+}
 `;
 
 const CarolineContainer= Styled.div`

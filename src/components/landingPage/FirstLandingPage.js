@@ -236,7 +236,7 @@ margin: none;
 position: absolute;
 transform: translate(0, -60%);
 top: 40%;
-left: 24%;
+left: 27%;
 margin: 2em;
 font-size: 3.5em;
 font-family:  'Roboto', sans-serif;

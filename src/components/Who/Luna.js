@@ -27,6 +27,11 @@ height: 100vh;
 @media (max-width: 734px) {
   height: auto;
  } 
+ @media (max-width: 1300px) and (min-width: 800px){
+           height: 130vh;
+       
+}
+ 
 `; 
 
 const LunaTitle = Styled.h1`
@@ -38,6 +43,10 @@ padding-left: 14%;
 @media (max-width: 734px) {
    padding-left: 00%; 
   }
+  @media (max-width: 1300px) and (min-width: 800px){
+            font-size: 3em;
+       
+}
 `; 
 
 const LunaContainer = Styled.div`
@@ -46,6 +55,12 @@ justify-content: space-evenly;
 flex-wrap: wrap;
 align-items: center;
 padding-top: 3%;
+
+@media (max-width: 1300px) and (min-width: 800px){
+  padding-top: 1em;
+       
+}
+
 `;
 
 const LunaText = Styled.p`

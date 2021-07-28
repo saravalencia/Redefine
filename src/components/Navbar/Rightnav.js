@@ -29,6 +29,9 @@ li{
         position: relative; 
         left: 30px; 
     }
+    @media (max-width: 1300px) and (min-width: 800px){
+    top: 10%;
+ }
   
 }
 
@@ -37,9 +40,12 @@ a{
     text-decoration: none;
     color: #FFF7EC;
       &:hover{
-        font-size: 39px;
-        
+        font-size: 39px;  
       }
+      @media (max-width: 1300px) and (min-width: 800px){
+    font-size: 1em;
+
+ }
 }
 
 

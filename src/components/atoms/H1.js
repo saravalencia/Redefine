@@ -11,10 +11,12 @@ const H1 = styled.h1`
     flex-direction: column;
     font-size: 3em;
     font-family: Arial Black, Helvetica, sans-serif;
-    @media (max-width: 700px){
+    @media (max-width: 700px) and (min-width: 200px){
         font-size: 1.5em; 
         margin-right: 50%; 
     }
+   
+    
 
 
     ${props => props.stylingForContact && css`
@@ -29,8 +31,11 @@ const H1 = styled.h1`
             @media screen and (max-width: 600px), screen and (max-height: 700px){ 
             font-size: 2em;
             
-            
             }
+            @media (max-width: 1300px) and (min-width: 800px){
+            font-size: 2.5em;
+       
+}
     `
 }
 ${props => props.stylingWorked && css`

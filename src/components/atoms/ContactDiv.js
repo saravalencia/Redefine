@@ -15,17 +15,20 @@ min-height: 100%;
     border-left: 2px solid #828282;
     padding-left: 2em;
 
-    @media screen and (max-width: 700px), screen and (max-height: 800px){
+    @media screen and (max-width: 700px) and (min-width: 200px){
         border-left: none;
         width: 60%;
-        
+}
+ 
+@media (max-width: 1300px) and (min-width: 800px){
+    width: 45%;
        
     }
     `}
     ${props => props.stylingForContactLeft && css`
     
 
-    @media screen and (max-width: 700px), screen and (max-height: 700px){
+    @media screen and (max-width: 700px) and (min-width: 200px){
         display: none;
     }
     `}

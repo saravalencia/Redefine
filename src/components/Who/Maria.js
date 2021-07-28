@@ -29,6 +29,10 @@ const Maria = () =>{
    @media (max-width: 734px) {
    padding-left: 12%; 
   }
+  @media (max-width: 1300px) and (min-width: 800px){
+            font-size: 3em;
+       
+}
     `;
 
     const MariaContainer = Styled.div`

@@ -28,6 +28,7 @@ body{
     .size{
       width: 100%; 
       clip-path: circle(); 
+     
     }
     
     /* Making the grey filter on Luna image */ 
@@ -48,6 +49,7 @@ body{
       min-width: 400px;
     
     }
+    
    
    /* Bold text for Span*/ 
     .text-bold{
@@ -146,3 +148,16 @@ a{
 p{
   font-family: "Arial"; 
 }
+@media (max-width: 1300px) and (min-width: 800px){
+      .Luna {
+        position: relative;
+        bottom: 2em;
+      }
+      .lunaLine {
+      
+        margin-top: 1em; 
+       
+      
+      }
+
+   }

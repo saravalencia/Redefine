@@ -25,8 +25,8 @@
     }
 
     label{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 550;
         font-size: 1.3em;
         margin-top: 1em;
     }
@@ -38,6 +38,9 @@
      width: 100%;
      height: 20em;
      border: none;
+      
+     @media (max-width: 1300px) and (min-width: 800px){
+    height: 12em;
  }
 }
   `;
@@ -65,7 +68,7 @@
                 <H1 stylingForContact  >Kontakt os</H1>
                 <H2 stylingForContact smallerFont  >Vi er altid klar på nye henvendelser og nye historier.<br/>
 
-Udfyld kontaktformularen til højre eller send  en mail <br/> på redefine@outlook.dk. 
+Udfyld kontaktformularen til højre eller send  en mail på redefine@outlook.dk <br/> 
 
 <br/>Vi ser frem til at høre fra dig.</H2>
                 {/* <P stylingForContact>Based in Denmark.<br/> Working remote and worldwide.</P> */}
@@ -77,7 +80,7 @@ Udfyld kontaktformularen til højre eller send  en mail <br/> på redefine@outlo
       <label>Email</label>
       <input type="email" name="email"  placeholder='Enter your email' id='email' />
       <label  >Message</label>
-      <textarea name="message" placeholder='Enter your message' />
+      <textarea name="message"  />
       <button className="buttonContact">Send</button>
                 </Form >
                 

@@ -49,7 +49,7 @@ div {
        
         width: 80%;
 }
-@media (max-width: 1300px){
+@media (max-width: 1300px) and (min-width: 800px){
       
      top: auto;
 }
@@ -69,7 +69,7 @@ justify-content: flex-end;
 @media (max-width: 734px){
     height: 80vh; 
 }
-@media (max-width: 1300px){
+@media (max-width: 1300px) and (min-width: 800px){
     height: 100vh; 
 }
 
@@ -109,7 +109,7 @@ font-weight: 800;
     width: 100%;
   right: 40%;
 }
-@media (max-width: 1300px){
+@media (max-width: 1300px) and (min-width: 800px){
     font-size: 2em;
    width: 210%;
 
@@ -129,9 +129,7 @@ display: flex;
     align-content: flex-end;
     justify-content: flex-end;
     align-items: center;
-    @media (max-width){
-
-    }
+   
 
 div {
     width: 40%;
@@ -145,7 +143,7 @@ div {
   width: 70%;
   margin-top: 80%;
 }
-@media (max-width: 1300px){
+@media (max-width: 1300px) and (min-width: 800px){
   width: 80%;
   position: absolute;
   right: 8%;
@@ -188,7 +186,7 @@ background-size: cover;
 @media (max-width: 770px){
    display:none ;
 }
-@media (max-width: 1300px){
+@media (max-width: 1300px) and (min-width: 800px){
    height: 120vh ;
    margin-top: 2em
 }
@@ -216,7 +214,7 @@ text-align: center;
    font-size: 2em;
    width: 100%;
 }
-@media (max-width: 1300px){
+@media (max-width: 1300px) and (min-width: 800px){
    font-size: 2em;
    width: 60%;
 }
@@ -249,7 +247,7 @@ color: #000AFF;
    left: 0%;
    margin-left: 1.5em;
 }
-@media (max-width: 1300px){
+@media (max-width: 1300px) and (min-width: 800px){
    left: 16%;
    
 }
@@ -293,7 +291,7 @@ left: 15%;
 @media (max-width: 770px){
    display: none;
 }
-@media (max-width: 1300px){
+@media (max-width: 1300px) and (min-width: 800px){
     width: 40%;
 }
 

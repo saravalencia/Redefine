@@ -32,15 +32,17 @@ div {
     position: absolute;               
     top: 110%; 
     margin-left: 9em ;
-    
-   
-
 
 @media (max-width: 734px){
     width: 80%; 
     top: 100%; 
     margin-left: 2em; 
 }
+@media (max-width: 1300px) and (min-width: 800px){
+   width: 40%;
+   top:100%;
+  
+    }
 
 }
 
@@ -101,6 +103,9 @@ div {
         margin-left: 2em; 
         margin-top: 50%; 
     }
+    @media (max-width: 1300px) and (min-width: 800px){
+   top: 310%;
+    }
     
    
 }
@@ -118,6 +123,11 @@ padding-bottom: 1em;
     padding-bottom: 0px; 
     text-align: center; 
 }
+@media (max-width: 1300px) and (min-width: 800px){
+    font-size: 2.7em;
+    padding-bottom: 0.5em;
+    margin-left: 1.5em;
+    }
    
 }
 
@@ -146,6 +156,9 @@ span {
    margin: 5%; 
    
 }
+@media (max-width: 1300px) and (min-width: 800px){
+    font-size: 2.6em;
+    }
 
 `;
 
@@ -156,6 +169,9 @@ color: #EE6C4D;
 @media (max-width: 734px){
     font-size: 3em; 
 }
+@media (max-width: 1300px) and (min-width: 800px){
+    font-size: 2.7em;
+    }
 
 `;
 
@@ -168,12 +184,25 @@ font-family: Arial, Helvetica, sans-serif;
 @media (max-width: 770px){
      font-size: 0.8em;  
 }
+@media (max-width: 1300px) and (min-width: 800px){
+    font-size: 0.9em;
+  
+    }
 
 `;
 const Img = styled.img`
+position: relative;
+right: 10%;
+bottom: 10%;
 @media (max-width: 770px){
      display:none;  
 }
+@media (max-width: 1300px) and (min-width: 800px){
+    width: 40%;
+    position: relative;
+    top: 20%;
+    left: 1%;
+    }
 
 `;
 const Img2 = styled.img`
@@ -182,6 +211,12 @@ left: -57%;
 @media (max-width: 770px){
    display: none;
 }
+@media (max-width: 1300px) and (min-width: 800px){
+    width: 30%;
+    top: 2%;
+   
+    }
+
 `;
 const Img3 = styled.img`
 position: relative;
@@ -190,6 +225,11 @@ right: 13vh;
 @media (max-width: 770px){
    display: none;
 }
+@media (max-width: 1300px) and (min-width: 800px){
+    width: 25%;
+    bottom: 19%;
+    right: 10%;
+    }
 
 `;
 
@@ -245,7 +285,7 @@ Hos RE:DEFINE testes et koncept flere gange med diverse interessenter inklusiv b
     
 <div>
                 <h2>Empathizing with the users</h2>
-                <P>liquam neque, aliquam scelerisque quis. Ac vivamus dui diam eu tincidunt imperdiet tristique sodales mauris. At pulvinar pellentesque eu amet. Tortor massa a dictum cursus gravida. Diam mauris, commodo sed tristique etiam. Cras at netus consequat risus, sed consectetur non cursus mauris. Et eleifend urna diam, tempor nisl tempor adipiscing aenean enim. Euismod proin amet, congue tellus justo risus vitae et. Sed libero malesuada s eget in proin. Vulputate ut risus tempus auctor semper pellentesque viverra ac id. Enim ultrices neque, a orci sed porttitor sed. Fusce nam cras a fusce ac turpis mauris lobortis mattis. At auctor malesuada congue lectus et lacinia mi, nisl. Semper diam mauris commodo pretium volutpat. Rutrum est massa risus, faucibus eu augue venenatis. Facilisis ullamcorper elit dignissim non ornare sit ultrices. Nisi in eget eu scelerisque aenean ultricies feugiat. In consectetur volutpat mi enim, tellus eu fermentum nulla mauris. Commodo, quis nibh arcu ipsum ac amet. Tristique nisi tortor massa et  </P>
+                <P>Liquam neque, aliquam scelerisque quis. Ac vivamus dui diam eu tincidunt imperdiet tristique sodales mauris. At pulvinar pellentesque eu amet. Tortor massa a dictum cursus gravida. Diam mauris, commodo sed tristique etiam. Cras at netus consequat risus, sed consectetur non cursus mauris. Et eleifend urna diam, tempor nisl tempor adipiscing aenean enim. Euismod proin amet, congue tellus justo risus vitae et. Sed libero malesuada s eget in proin. Vulputate ut risus tempus auctor semper pellentesque viverra ac id. Enim ultrices neque, a orci sed porttitor sed. Fusce nam cras a fusce ac turpis mauris lobortis mattis. At auctor malesuada congue lectus et lacinia mi, nisl. Semper diam mauris commodo pretium volutpat. Rutrum est massa risus, faucibus eu augue venenatis. Facilisis ullamcorper elit dignissim non ornare sit ultrices. Nisi in eget eu scelerisque aenean ultricies feugiat. In consectetur volutpat mi enim, tellus eu fermentum nulla mauris. Commodo, quis nibh arcu ipsum ac amet. Tristique nisi tortor massa et  </P>
 </div>
 <Img3 src="../images/img3.svg"/>
 

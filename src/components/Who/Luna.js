@@ -23,7 +23,7 @@ line-height: 1em;
 margin-top: 0px;
 padding-top: 3%; 
 background-color:#fff7ec; 
-height: 100vh;
+height: 120vh;
 @media (max-width: 734px) {
   height: auto;
  } 
@@ -76,7 +76,7 @@ display: flex;
 justify-content: space-evenly;
 flex-wrap: wrap; 
 position: relative; 
-top: 100px;
+top: 90px;
 margin: auto; 
 width: 65%; 
 @media (max-width: 734px) {
